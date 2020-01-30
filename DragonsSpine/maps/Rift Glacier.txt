@@ -1,0 +1,565 @@
+// Rift Town and Portal Entry - Elevation 0'
+<z>0</z> <x>100</x> <y>100</y> <n>Rift Glacier</n> <f>light</f> outdoor=true coexistent=true
+<autonomy>
+	<minimumSuggestedLevel>17</minimumSuggestedLevel>
+	<maximumSuggestedLevel>21</maximumSuggestedLevel>
+	<entities>barbarian,dire_wolf,thaumaturge,fighter,savage(cultist),sabertooth,mammoth</entities>
+	<uniqueEntity>
+		<entity>kraken</entity>
+		<x>105</x><y>121</y>
+		<description>colossal|with eight massive tentacles and two bloodstained pincers</description>
+		<spawnTimer>3400</spawnTimer>
+		<spawnMessage>The terrain around you shakes violently as dark storm clouds rush in overhead.</spawnMessage>
+	</uniqueEntity>
+</autonomy>
+        /\/\/\/\                                                                            
+/\/\/\/\/\~~~~/\/\/\                                                                        
+WW~~~~~~~~~~~~~~~~/\          /\/\/\/\/\                                                    
+WW~~~~~~~~~~~~~~~~/\/\/\/\/\/\/\.t.t.t/\                                                    
+WW~~~~~~~~~~~~~~~~::SM.t.t.t.tSM.t.t.t/\                                                    
+WW~~~~~~~~~~~~~~~~::/\/\/\/\/\/\/\MM/\/\                                                    
+WW~~~~~~~~~~~~~~~~::/\/\/\/\/\/\/\**/\    /\/\/\/\/\/\/\/\/\/\/\                            
+WW~~~~~~~~~~~~~~~~::::/\. . . . /\/\/\/\/\/\~.~.~./\/\/\c3~.~./\/\                          
+WW~~~~~~~~~~~~~~~~~~::/\. . /\/\/\/\~.~.~.~.~.~.~.~.~.~.~.~~~~~./\/\/\                      
+WW~~~~~~~~~~~~~~~~~~::::/\/\/\::::~.~.~~~~~~~~~~~.~.~.~~~~~~~~~~~.~./\/\/\/\                
+WW~~~~~~~~~~~~~~~~~~~.::::::::::~.~.~.~.~.~~~~~~~~~~~~~.~.~~~~~~~~~~~.~.~./\/\/\            
+WW~~~~~~~~~~~~~~~~~~~~~.~~~.~.~.~.~.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~.::::/\/\          
+WW~~~~~~~~~~~~~~~~~~~~~.~~~~~~~~~~~.~.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~.~.~.~.::/\/\        
+WW~~~~~~~~~~~~~~~~~.~.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~.~.~.~.::::/\/\        
+WW~~~~~~~~~~~~~.~.~.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~.:t:t::/\/\/\/\/\/\/\/\
+WW~~~~~~~~~~~~~~~.~.~.~.~~~~~~~~~~~~~~~~~~~~~~~.~./\/\/\~~~~~~~~~~~~~.:t/\/\/\:t/\/\[][][]/\
+WW~~~~~~~~~~~.~.~.~.~.~.~.~.~~~~~~~~~~~~~~~~~~c3/\/\/\/\/\~~~~~~~~~.~.:t/\~.~.:t/\/\[].t[]/\
+WW~~~~~~~~~~~~~~~.~.~.~~~~~~~~~~~~~~~~~~~~~~/\/\~./\/\~.~./\~~~~~.~.:t:t/\~.:t:t/\/\DDCCDD/\
+WW~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/\/\~./\~.~~~~/\~~~~~.:t/\/\:t:t/\/\/\/\[].t[]/\
+WW~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/\~./\~~~~~~~~~~~.~.:t/\/\/\/\/\/\/\up[]--[]/\
+WW~~~~~~~~~~~~~~~~~~~~~~~~~~/\/\/\~~~~~~~~~~~~~~/\/\/\~~~~~~~~~~:t/\/\/\/\[][][]/\.t.t.t/\/\
+WW~~~~~~~~~~~~~~~~~~~~~~~~/\/\/\/\/\/\~~~~~~~~~~~~~~~~~~~~~~~~~~:t/\/\/\[][]MM[][].tDDDDDD/\
+WW~~~~~~~~~~~~~~~~~~~~~~~~/\/\. . . /\/\~~~~~~~~~~~~~~~~~~~~~~~~:t/\/\:t:t:t:t:t[].tDD.tDD/\
+WW~~~~~~~~~~~~~~~~~~. . . . ''''. /\/\/\~~~~~~~~~~~~~~~~~~~~~~~~~~:t/\up[][]:t[][].tDDCCDD/\
+WW~~~~~~~~~~~~~~/\. . . . ''''. /\/\''. ~~~~~~~~~~~~~~~~~~~~~~~~~~:t/\/\/\[]--[].t.t[].t[]/\
+WW~~~~~~~~~~/\. . . /\. {}/\''/\{}{}{}. . ~~~~~~~~~~~~~~~~~~~~~~~~~~:t/\/\/\.t.t.t.t[].t[]/\
+WW~~~~~~~~. . {}{}. {}{}/\/\''/\{}. {}{}. /\/\~~~~~~~~~~~~~~~~~~~~~~~~:t/\/\/\.t~~.t[]--[]/\
+WW~~~~~~~~/\{}. MM{}{}/\/\''''/\/\{}{}. {}{}/\/\~~~~~~~~~~~~~~~~~~~~~~:t/\/\/\.t.t.t.t.t/\/\
+WW~~~~~~~~. . {}{}{}{}{}''''''''/\/\/\{}{}{}{}/\~~~~~~/\/\~~~~~~~~~~:t/\/\/\/\.t.t/\/\/\/\/\
+WW~~~~~~~~~~/\. {}{}/\{}{}/\''''''''/\/\{}. /\/\/\~~/\/\~~/\~~~~~~:t/\/\/\/\.t.t[][]**[][]/\
+WW~~~~~~~~~~. . /\{}{}{}{}/\/\. ''''/\/\{}{}/\/\/\/\/\/\~~~~~~~~:t:t/\/\.t.t.t.t| .t.t.t[]/\
+WW~~~~~~~~~~~~~~. . . . {}{}/\/\/\/\''''. {}{}/\/\/\/\~~~~~~~~~~:t/\/\/\.t[][][][].t.t.t[]/\
+WW~~~~~~~~~~~~~~~~~~~~. . . . /\/\/\~~~~. . . /\/\/\/\~~~~~~~~:t:t/\/\.t.t| .t.tDD==CC==DD/\
+WW~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~. . /\/\~~~~~~~~~~:t:t_]| .t.t[]MR.tDD.t.t.tDD
+/\WW~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~:t:t:t/\/\.t.tDDDDDDDDDDDDDDDDDD
+/\/\_]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~. ~.~.~~~~~~~~~~~~~~~~:t/\/\/\/\o .t.t.t.t| .t.t.t.tDD
+  /\/\. . . ~~~~~~~~~~~~~~/\~~~~~~. . . ~.~./\/\~~~~~~~~:t:t/\/\/\/\DDDDDD.tDDDDDD.tDDDD.tDD
+    /\/\/\/\. /\/\/\~~~~/\/\. . . .\.\~.~..\.\/\/\/\~3:t/\/\/\/\/\**.t.t| .t| ()DD.tEKDD.tDD
+          /\SM/\~./\/\/\/\{}{}{}. . ~.~.. . .\.\  /\/\/\/\{}{}{}/\SMDDDDDD/\DDDDDDDDDDDDDDDD
+    /\/\/\/\.t/\~.~.~.~./\/\. . {}{}. . ''''. ''''''[]. . . {}{}{}{}/\/\/\/\/\/\/\/\/\TTTT
+  /\/\*O*O*O*O/\/\~.~.~.~./\{}{}{}{}{}{}{}''''. []. . ''[_. {}{}{}{}{}{}. . /\/\{}{}. . TTTT
+  /\*O.tSC.t.t*O/\~.~.. . {}{}{}{}{}''''''''''''''''. ''''''''''''{}{}{}''{}{}''''{}{}{}{}TT
+  /\*O*O.t.t.t*O/\/\/\~.. . {}. . .\.\. {}. ''_]. . MM''. []. ''''''. .\.\.\.\{}. . . . TTTT
+  /\.t/\*O*O*O*O/\~.~./\. {}. {}{}{}{}{}.\.\{}. . . . . . . {}/\/\{}/\{}{}{}{}{}{}{}{}TTTT
+  /\~b/\*O.t/\/\SM. . . {}{}''''. . .\.\''''/\. _]''.\.\_]. /\/\{}{}{}/\/\{}{}{}/\TTTTTT
+  /\/\/\MMEK/\~.~.~./\. ''''. . /\/\. /\/\/\. {}{}{}[]. . /\/\/\/\/\/\/\/\/\/\/\/\
+      /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+//Rift Town Upstairs - Elevation 15'
+<z>15</z> <x>134</x> <y>115</y> <n>Rift Glacier Town, Second Level</n> townlimits=true alignment=lawful
+                DDDDDD      
+    DDDDDDDDDD  DD. DD      
+    DD. . . DD/\DDCCDD      
+    DD. (). | . | . DD      
+    DD. . . DDdnDDDDDD/\    
+    DDDDDDDDDD. %%%%{}/\    
+    /\DDMMDD/\%%. . {}/\    
+/\/\DD. . . DD%%{}. {}/\    
+/\dn. . . . . %%{}. {}/\/\/\/\DDDDDD
+/\/\DD. . . DD%%{}. {}SM. . . . . DD  
+    /\DD. DD%%%%{}. {}/\/\/\. . o DD
+      /\/\%%%%%%{}. . {}/\/\CCDDDDDD
+      /\/\%%%%%%%%%%. /\/\. . | . DD  
+        /\%%%%{}{}{}. /\DDDDDDDDDDDD    
+      /\/\%%{}{}. . . /\    
+      /\. . . . . /\/\/\    
+    DDDD--DDDD. /\/\        
+    DD. . . DD. . /\/\/\/\/\
+    DD. . . DD. . . . . . /\
+    DD. . . DD. DDDDDDDD. /\
+    DD. . . DD. DD. MMDD. /\
+    DD. . . DD. | . . DD. /\
+    /\/\/\/\/\/\/\/\/\/\. /\
+          /\{}. . . | . . /\
+          /\. . . /\/\/\/\/\
+          /\/\CC/\/\        
+          /\. . . /\        
+          /\/\/\/\/\
+<z>-20</z> <x>146</x> <y>136</y> <n>Haunted House, Ground Floor</n> alwaysdark=true alignment=chaoticevil
+<autonomy>
+	<minimumSuggestedLevel>16</minimumSuggestedLevel>
+	<maximumSuggestedLevel>20</maximumSuggestedLevel>
+		<entities>banshee,ghast,[barbarian]ghoul(berserker),shadow,skeleton(warrior),spectre,waft(fighter),waft,waft(fighter|mage),wight,wight(thaumaturge),[barbarian]zombie,[dwarven]zombie,[gnome]zombie</entities>
+	<spawnIntensityMod>2</spawnIntensityMod>
+</autonomy>
+/\/\/\/\/\/\/\
+/\/\/\/\. . /\/\
+/\/\/\. . . . DDDDDDDDDDDDDDDDDDDDDDDD
+  /\. %%c2. . DD. . DD. . . . DD. dnDD
+  /\/\/\/\. . DD. . DD. . . . DDSDDDDD
+  /\. . . . . DD. . DD. . . . | . . DD
+/\/\. /\/\. . DDDD--DDDD----DDDD. . DD
+/\. . /\/\/\. | . . . . . . . | . . DD
+/\. . ~~/\/\. DD--DD. DDDDDD. DDDDDDDD
+/\/\. . /\. . DD. DD. | o DD. . . . DD
+/\/\. . . . . DD. DD. DDDDDD. . . . DD
+  /\/\. . . . DD. DD. . upDD. . . . DD
+    /\/\. . . DDDDDDDDDDDDDDDDDDDDDDDD
+    /\/\/\/\/\/\
+// Haunted House Upstairs - Elevation 12'
+<z>10</z> <x>153</x> <y>138</y> <n>Haunted House, Second Floor</n> alwaysdark=true alignment=chaoticevil
+<autonomy>
+	<minimumSuggestedLevel>16</minimumSuggestedLevel>
+	<maximumSuggestedLevel>18</maximumSuggestedLevel>
+	<entities>banshee,ghast,[barbarian]ghoul(berserker),shadow,skeleton(warrior),spectre,waft(fighter),waft(fighter|mage),wight,wight(thaumaturge),[barbarian]zombie,[dwarven]zombie,[gnome]zombie</entities>
+	<spawnIntensityMod>2</spawnIntensityMod>
+</autonomy>
+DDDDDDDDDDDDDDDDDDDDDDDD
+DD. . . . . | . DD. . DD
+DD. . . . . DD. | . . DD
+DD. . . DDDDDD. DDDDDDDD
+DD. . . | . DD. DD. . DD
+DD. . . DDo DD. | . . DD
+DDSDDDDDDDDDDD. DD. . DD
+DD. DD. DDo | . DDDDDDDD
+DDDDDD. DDDDDD. | . . DD
+DD. SD. . dn. . DD. . DD
+DDDDDDDDDDDDDDDDDDDDDDDD
+// Well Bottom - Elevation -30'
+<z>-30</z> <x>137</x> <y>136</y> <n>Bottom of a Well</n> outdoor=true alignment=chaoticevil
+<autonomy>
+	<minimumSuggestedLevel>17</minimumSuggestedLevel>
+	<maximumSuggestedLevel>19</maximumSuggestedLevel>
+	<entities>banshee,ghast,[barbarian]ghoul,shadow,skeleton(warrior),spectre,waft,wight,[barbarian]vampire(fighter|shaman),[barbarian]zombie</entities>
+	<spawnIntensityMod>2</spawnIntensityMod>
+</autonomy>
+  /\/\/\        /\/\/\/\/\  
+  /\pb/\/\    /\/\. . . /\  
+DDDD. DDDD    /\. . /\. /\/\
+DD~~~~~~DD/\/\/\. /\/\. c3/\
+DD~~MM~~[]. . /\. /\/\/\/\/\
+DDDDDDDDDD/\. . . /\        
+    /\/\/\/\/\/\/\/\
+// Haunted Basement - Elevation -50'
+<z>-50</z> <x>150</x> <y>138</y> <n>Haunted House, Basement</n> alwaysdark=true alignment=chaoticevil
+<autonomy>
+	<minimumSuggestedLevel>18</minimumSuggestedLevel>
+	<maximumSuggestedLevel>20</maximumSuggestedLevel>
+	<entities>banshee,ghast,[barbarian]ghoul,lich(magus),shadow,skeleton(warrior|monk),spectre(hero),spectre(diabolist),waft(fighter|mage),wight,wight(thaumaturge),[barbarian]vampire,[barbarian]vampire(shaman)</entities>
+	<spawnIntensityMod>2</spawnIntensityMod>
+</autonomy>
+    DDDDDDDDDDDDDDDDDDDDDDDDDD
+    DD. . DDDD. . . DD. . upDD
+    DD. . DDDD. . . DDDD. DDDD
+/\/\DDDDHDDDDD. . . DD. . . DD
+/\**DD. . DDDDDD--DDDDDD--DDDD
+/\%%MM. . DD. . . . . . . . DD
+/\**DD. . DDDDDD--DDDDDDHDDDDD
+/\/\DDDDHDDDDD. . . DD. . . DD
+    DD. . DDDD. . . DDDD. DDDD
+    DD. . DDDD. . . DD. . . DD
+    DDDDDDDDDDDDDDDDDDDDDDDDDD
+//Inviso Level - Access only by portal with skull gem
+<z>-900</z> <x>148</x> <y>140</y> <n>Where am I?</n> alwaysdark=true alignment=chaoticevil
+<autonomy>
+	<minimumSuggestedLevel>19</minimumSuggestedLevel>
+	<maximumSuggestedLevel>21</maximumSuggestedLevel>
+	<entities>banshee,ghast,[barbarian]ghoul,shadow,lich(necromancer),lich(magus),skeleton(warrior),spectre,waft,wight,[barbarian]vampire(fighter|shaman),[barbarian]zombie</entities>
+	<spawnIntensityMod>2</spawnIntensityMod>
+</autonomy>
+DDDD/\DDDDDD/\DDDDDDDDDD/\DDDDDD/\DDDD
+DD. . . . . . . . . . . . . []. . . DD
+/\. [][]/\[][]. /\[]/\[][][]/\. []. /\
+DD. []. []. . . []. . . . . . . []. DD
+DD. /\. []. [][][]. [][]/\[][][]/\. DD
+DD. . . []. . . []. []. . . []. . . DD
+/\[][][]/\[][]. []. []. []. /\. []. DD
+DD. []. . . . . []. []. []. []. []. DD
+DD. /\. []. MM. []. []. /\[][]. /\. DD
+DD. . . []. . . []. []. . . []. []. DD
+/\[][][]/\. []. /\. /\[][]. /\. [][]/\
+DD. . . . . []. []. . . . . []. . . DD
+DD. /\[][]. /\. []. [][]/\. []. /\[]DD
+DD. []. []. []. []. . . []. []. . . DD
+/\. []. /\. []. /\[]/\. []. /\[][]. /\
+DD. . . []. []. . . . . []. . . SD. DD
+DD[]/\[][]. /\[][][][]. /\[][][]/\. DD
+DD. . . . . . . . . []. []. []. [][]DD
+/\. [][]/\[][][]/\. /\. []. /\. []. DD
+DD. . . . . . . []. []. []. []. []. DD
+DD[]/\[][][]/\[][]. []. /\. [][]/\. DD
+DD. . . . . . . []. []. []. []. . . DD
+/\. []. /\[][]. /\. /\. []. /\. [][]DD
+DD. []. []. . . . . []. . . SD. . . DD
+DDDD/\DDDDDD/\DDDDDDDDDD/\DDDDDD/\DDDD
+<z>70</z> <x>115</x> <y>74</y> <n>Rift Glacier Lower Floe</n> <f>heavy</f> outdoor=true
+<autonomy>
+	<minimumSuggestedLevel>18</minimumSuggestedLevel>
+	<maximumSuggestedLevel>22</maximumSuggestedLevel>
+	<entities>orc(fighter|magus|shaman),ogre(champion|mystic),[gigantic]ice_lizard,wolf,[snow]griffin,shadow,rockworm</entities>
+	<spawnIntensityMod>2</spawnIntensityMod>
+</autonomy>
+    /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\                      
+  /\/\/\~.up/\/\/\/\/\/\/\~.~.~./\/\                    
+/\/\/\~.. . . . . /\/\/\/\~.~.~.~./\                    
+/\~.. . . {}{}. . ::::::~.~.~.~.~./\/\                  
+/\~.. {}{}{}{}::::::~.~.~.~.~.~.~.~./\/\        /\/\/\  
+/\/\~.{}{}{}::::~.~./\/\/\/\~.~.~.~.~./\    /\/\/\~./\  
+/\/\~.. {}::::~./\/\/\/\/\/\/\/\~.~.~./\/\/\/\~.~.~./\/\
+  /\/\. {}::~./\/\/\/\/\~./\/\/\/\~.~.~.::/\/\~.~.{}{}/\
+    /\. ::::/\/\/\/\~.~.~./\/\/\~.~.~.~.~.::~.{}{}{}~./\
+  /\/\~.::::/\. /\. . . ~./\/\~.~.c3/\/\~.::::{}{}~./\/\
+  /\~.. ::/\. /\/\. . . /\/\/\~./\/\/\/\~.~.::{}{}{}/\  
+  /\{}{}. /\. /\~.. . c3/\/\~.~./\/\/\/\~.~.::. {}{}/\  
+/\/\{}{}. /\. /\~./\/\/\/\/\~./\/\/\/\/\/\~.::. ~./\/\  
+/\~.{}{}{}/\. /\/\/\/\/\/\/\~./\/\/\/\/\/\~.::. ~./\    
+/\. /\{}. /\. /\/\{}{}/\/\/\~.~./\/\/\/\/\::::. ~./\    
+/\. /\{}. /\/\/\{}. {}{}/\~.~.~.~./\/\/\{}::. . /\/\    
+/\. /\{}{}. /\{}{}{}{}. /\~.~.~.~.~./\/\~.~.. . /\      
+/\. /\/\{}. /\. {}{}. /\/\/\~.~.~./\/\/\{}{}. /\/\      
+/\. . /\{}. . . /\/\/\/\~.~.~./\/\/\/\{}{}{}. /\/\      
+/\/\. /\/\. . /\/\/\/\/\~.~.~./\/\/\~.{}{}{}. . /\/\/\  
+  /\. /\/\. . /\. /\/\~.~.~./\/\/\/\{}{}{}. . . . {}/\/\
+  /\. /\{}{}{}/\. /\~./\~.~./\/\~./\~.{}{}. . . {}~.{}/\
+  /\. . {}/\{}. . /\~.~.~.~.~./\~.~.{}{}. . . {}~.{}{}/\
+  /\/\{}{}{}{}/\::~.~./\~./\~.::~.~.{}/\. . . {}{}{}/\/\
+  /\/\{}/\{}/\/\~.~.~.~.~.~.~.::::/\/\/\{}{}. . {}{}/\/\
+  /\/\~.{}. /\~.~.~./\~.~.~.~.::/\~./\/\{}{}{}. . . /\  
+  /\~.. . . ::~./\~./\~./\~./\::/\/\/\{}{}{}. . . . /\  
+  /\~.. . . ::~./\~.~.~./\/\/\/\/\/\{}{}{}. . . . /\/\  
+  /\~.. . {}::~.~.~./\~./\/\/\/\/\. {}{}. . . . {}/\    
+  /\/\~.{}{}::::~.~./\~.~.::. . . . ~.. . . . {}{}/\/\/\
+    /\~.{}{}{}::::~.~.~./\/\/\. . . . . . . . {}~.{}{}/\
+    /\/\. {}{}{}::::~.~./\/\/\{}. /\/\{}. . . {}{}/\~./\
+      /\. . {}. . ::~.~.~.~./\. {}/\/\/\{}{}. /\. /\~./\
+      /\. . . . . ~.~.~.~.c2::. /\/\/\/\/\~./\/\--/\/\/\
+    /\/\. . . %%%%%%~.~.~.%%%%%%/\/\/\/\/\/\/\/\. /\/\  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%/\. . **/\  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%/\. . . /\  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%/\/\/\/\/\
+<z>80</z> <x>118</x> <y>77</y> <n>Rift Glacier Plateau</n> outdoor=true
+<autonomy>
+	<minimumSuggestedLevel>18</minimumSuggestedLevel>
+	<maximumSuggestedLevel>22</maximumSuggestedLevel>
+	<entities>orc(fighter|magus|shaman),ogre(champion|mystic),[gigantic]ice_lizard,wolf,[snow]griffin,shadow,rockworm</entities>
+	<spawnIntensityMod>2</spawnIntensityMod>
+</autonomy>
+            %%%%%%%%%%%%%%              
+        %%%%%%%%%%%%%%%%%%%%            
+      %%%%%%%%. . . . %%%%%%%%          
+  %%%%%%%%. . . /\/\. . . %%%%%%%%      
+  %%%%%%. . /\/\/\/\/\/\. . %%%%%%%%    
+  %%%%. . /\/\%%%%%%%%/\c3%%%%%%%%%%%%  
+%%%%%%. /\/\%%%%%%%%%%/\%%%%%%c2. %%%%  
+%%%%. . /\%%%%/\/\/\/\/\%%/\/\/\. %%%%%%
+%%%%. /\/\%%%%/\%%c2. %%%%/\/\/\. %%%%%%
+%%%%. /\/\/\/\/\/\/\/\%%/\/\/\/\/\. %%%%
+%%%%. /\/\. . . /\%%/\%%/\/\/\/\/\. %%%%
+%%%%. . . . %%. /\/\/\%%%%/\/\/\. . %%%%
+%%%%. . . %%%%%%. . %%%%%%%%/\/\. %%%%%%
+%%%%%%. %%%%%%%%%%. %%%%%%%%%%. . %%%%%%
+  %%%%. %%%%%%%%. . . %%%%%%. . . %%%%%%
+  %%%%%%%%. . . . %%. %%. . . . %%%%%%%%
+  /\%%%%. . . . . %%%%. . . . %%%%%%%%  
+  /\%%%%. %%. . %%. %%. . . . %%%%%%%%  
+  %%%%%%. %%. . . . . . . %%. %%%%%%%%  
+  %%/\%%%%%%. . . . . %%. %%%%%%%%%%%%  
+      %%/\%%%%%%. %%. %%%%%%%%%%%%      
+        /\%%%%%%%%%%%%%%%%%%%%/\        
+                %%%%%%%%%%
+<z>100</z> <x>118</x> <y>78</y> <n>Upper Plateau</n> outdoor=true
+<autonomy>
+	<minimumSuggestedLevel>18</minimumSuggestedLevel>
+	<maximumSuggestedLevel>22</maximumSuggestedLevel>
+	<entities>orc(fighter|magus),ogre(champion|mystic),[gigantic]ice_lizard,wolf,[snow]griffin,shadow</entities>
+	<spawnIntensityMod>2</spawnIntensityMod>
+</autonomy>
+      %%%%%%%%%%%%%%%%%%%%
+    %%%%%%%%%%%%%%%%%%%%%%
+    %%%%%%%%%%%%. . %%%%%%%%
+%%%%%%%%%%%%. . . . . . %%%%
+%%%%%%%%%%. . /\%%%%/\c2%%%%
+%%%%%%%%. . /\/\%%/\/\/\%%%%
+%%%%%%%%. . /\%%%%%%%%/\%%%%
+%%%%%%. . /\/\%%%%%%%%%%%%%%
+%%%%%%. . /\/\%%
+%%%%%%. . %%%%%%
+%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%
+<z>150</z> <x>70</x> <y>61</y> <n>The Gorge</n> <f>heavy</f> outdoor=true
+<autonomy>
+	<minimumSuggestedLevel>19</minimumSuggestedLevel>
+	<maximumSuggestedLevel>23</maximumSuggestedLevel>
+	<entities>orc(fighter|magus|shaman),ogre(champion|mystic),[gigantic]ice_lizard,wolf,[frost]giant(warrior),[snow]griffin,shadow,rockworm</entities>
+	<spawnIntensityMod>1</spawnIntensityMod>
+</autonomy>
+                                                                          /\/\/\/\/\/\/\/\                                  
+                                                      /\/\/\/\/\          /\~.~.~.{}{}{}/\/\/\/\                            
+    /\/\/\/\/\                                      /\/\~.~.~./\/\      /\/\~.{}{}{}/\{}{}{}{}/\                            
+  /\/\~.~.~./\/\                                  /\/\~.~.~.~.~./\/\/\/\/\~.{}~./\/\/\/\c3~.::/\/\/\/\/\                    
+/\/\~.~.~.~.~./\/\                            /\/\/\~.~.~.~.~.~.~.~.::::::::. /\/\/\/\/\/\::::~.~.~.~./\/\/\/\/\            
+/\~.~.~.~.~.~.~./\/\/\                  /\/\/\/\. ~.~.~.~.~.~.~.~./\~.~.~.::::/\/\/\/\/\~.~.~.~.~.~.~.~.::::::/\/\/\        
+/\~.~./\~.~.~.~./\{}/\/\              /\/\{}c3~.~.~.~.~.::::::~.~.~.. /\~.~.~.~./\/\/\~.~.~.~.~.~.~.~.~.~.~.::::::/\/\      
+/\~.~.~.~.~.~.~.~./\~./\            /\/\{}. ~.~.~.~.. . /\. ::::~.~.~.~.. ~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.::::/\/\    
+/\~.~.~.~.~.~.~.~.~.~./\/\/\    /\/\/\::::~.~.~.~.. . {}~.{}{}::::::~.~.~.~.~.. /\~.~.~.~.~.~.~.~.~.~.~.~.~./\~.~.~./\/\/\  
+/\/\~.~.~.~.~.~.~.~.~.~.~./\/\/\/\::::~.~./\. ~.~.. {}~.{}{}/\{}/\::::::::~.~.~.~.~.~.~.~.~.~.::::::::::~.~.~.::/\~.~.~./\/\
+  /\/\~.~.~.~.~./\/\~.~.~.~.~.~.::~.~.~./\~.~.~.. {}/\/\{}/\/\/\/\/\/\/\/\::::::::~.~.~.~.~.~./\. . . ::::~.~.~.~.. ~.~.~./\
+    /\/\~.~.~./\/\/\/\~.~.~.~.~.~.~./\~./\~.~.. {}/\/\/\/\/\/\          /\/\/\/\/\/\/\/\/\/\/\/\/\~./\/\::::::/\~.~.. ~.~./\
+      /\/\/\/\/\    /\/\/\~.~.~.~.~.~.~.~.~./\/\/\/\                                            /\~./\/\/\/\/\/\~.~./\~./\/\
+                        /\/\/\/\~.~.~.~.~./\/\                                            /\/\/\/\dn/\/\/\/\/\/\/\~.~.~./\/\
+                              /\/\/\/\/\/\/\                                                %%/\%%%%/\%%%%%%%%%%/\%%%%%%/\/\
+                                                                                              %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                                                                                            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+<z>720</z> <x>72</x> <y>58</y> <n>Ice Bridge</n> <f>heavy</f> outdoor=true
+<autonomy>
+	<minimumSuggestedLevel>17</minimumSuggestedLevel>
+	<maximumSuggestedLevel>21</maximumSuggestedLevel>
+	<entities>orc(fighter|magus|shaman),ogre(champion|mystic),[gigantic]ice_lizard,wolf,[snow]griffin,shadow,rockworm</entities>
+	<spawnIntensityMod>1</spawnIntensityMod>
+</autonomy>
+                                                                                        /\/\/\/\/\        
+                                                                                  /\/\/\/\{}{}~./\/\/\    
+            /\/\/\/\/\/\                                              /\/\/\/\/\/\/\{}{}. {}. {}~.. /\/\/\
+          /\/\~.~.~.~./\                                            /\/\c3{}. . . . . . {}{}~.. {}{}~.. /\
+        /\/\~./\/\~./\/\                      /\/\/\/\/\/\/\    /\/\/\. %%%%%%%%%%%%. . . . {}{}/\. {}/\/\
+        /\~./\/\/\/\/\                /\/\/\/\/\{}. . . . /\/\/\/\{}{}. %%%%%%%%. %%%%%%%%. . {}. {}. /\  
+        /\/\~./\                /\/\/\/\{}~.{}{}. %%%%%%. . . . . . . %%%%%%. . . c2%%%%%%. . . . {}/\/\  
+    %%%%/\/\~./\/\          /\/\/\~.{}{}~.. . . %%%%%%%%%%%%%%%%%%%%%%%%%%. c3/\/\/\/\%%%%%%%%%%%%/\/\    
+    %%%%%%~./\~./\/\/\/\/\/\/\~.~.{}. . c2. %%%%%%%%%%%%%%%%%%/\%%%%%%%%%%. /\/\/\/\%%%%%%%%%%%%%%%%%%    
+    %%%%%%%%/\/\~.~.~.~./\/\{}{}{}. . %%%%%%%%%%%%%%%%%%%%%%%%%%%%/\%%%%%%%%/\/\/\%%%%%%%%%%%%%%%%%%%%    
+    %%%%%%%%/\/\/\/\/\/\~.{}~.{}. . %%%%%%%%%%%%%%%%/\%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%      
+    %%%%%%%%%%%%%%c3{}{}~.~.. . . %%%%%%%%%%%%%%%%%%%%%%%%. . %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%      
+    %%%%%%%%%%%%%%%%%%. . . . %%%%%%%%. . . %%%%. . . %%. . . {}{}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%      
+    %%%%%%%%. . %%%%%%%%%%%%. %%%%%%. . . . . . /\/\. . . {}{}{}{}~~~~%%%%%%%%%%%%%%%%%%%%. %%%%%%%%%%    
+    %%%%%%. . {}. %%%%%%%%%%. %%. . . ~.{}{}/\{}. {}~.~.. {}{}. {}~~{}{}. . {}{}{}. . ~.{}. . /\/\        
+    /\/\. . /\. {}. . %%%%%%. . {}~.~.. {}. {}. {}~.. . ~.~.{}{}~~{}{}. . {}{}{}. ~.~.. . {}/\. /\/\      
+      /\/\/\{}{}. {}. . . . ~.{}{}{}. . ~.{}{}{}. {}. ~.{}{}~~~~{}{}. . ~.~.. . ~.~.~.{}{}{}/\/\. /\      
+          /\/\/\/\. {}{}{}{}~.~.{}{}{}. ~.{}{}. {}{}. {}{}~~{}{}. . . ~.{}{}. . ~.{}{}{}{}. . %%. /\      
+      /\/\/\. . /\/\/\{}{}{}/\/\/\/\/\c3. ~.{}{}{}. . {}. ~~{}{}. . . {}{}. {}. {}~.{}. . {}%%%%%%/\      
+    /\/\. . /\/\. . /\/\. /\/\/\/\/\/\/\. . ~./\{}. ~.{}{}{}~~{}{}~.. . {}{}. {}. {}/\. %%%%%%%%%%%%      
+    /\. . . . /\/\/\/\/\. /\. . . . /\/\/\/\. . . . . ~.{}{}. ~~. {}. {}. {}~.{}{}/\/\. %%%%%%%%%%%%      
+  /\/\. . . . /\/\. /\/\. . . /\/\. . /\. /\/\. . . {}~.{}{}{}~~/\{}. {}{}{}{}~./\/\{}/\. %%%%            
+  /\. . . . /\/\. . . . . /\/\/\. . . /\. . /\~.~.. . {}{}. ~~{}{}{}. . {}. {}{}/\/\. {}. %%%%%%          
+  /\/\. /\. . . . . . . /\/\/\. . /\/\/\. . /\/\{}~.. {}/\~~~~. {}. . . {}{}~.~.{}/\/\/\. . %%%%          
+    /\/\/\/\/\. /\. . /\/\. /\. . . . . /\/\/\/\/\{}. . ~~~~~~/\/\/\. . ~.~.~.{}{}{}. /\/\. %%%%          
+  /\/\/\. . /\. /\/\/\/\. /\/\. /\. . . . . /\. /\/\/\/\{}~~{}/\. /\/\~.~.~.{}{}. {}{}{}. . %%%%          
+/\/\. . . . . . . /\/\. /\/\. . . /\. . /\. . /\. . . /\/\/\/\/\. . /\~.~.~.{}. {}{}{}{}. %%%%%%          
+/\. . . . . /\/\. . . /\/\. . /\. . . /\/\. . . /\/\/\/\/\/\/\. . /\/\/\~.. . {}. {}{}. . %%%%%%          
+/\. . . . /\/\/\/\/\. /\/\. /\/\/\/\/\/\/\. . . . . . . /\/\. /\/\/\. . {}{}. . {}{}. . . %%%%%%          
+/\/\. . . /\/\. /\/\. . . . /\/\/\. /\/\/\/\. . . /\/\. /\/\. . . /\. /\{}. {}. . . {}. %%%%%%            
+/\/\/\. /\/\/\. . /\/\. . . . /\. . . /\/\/\. . . . /\. /\. . /\. . . /\/\{}{}~.{}. . . /\%%%%            
+/\. . . . /\. . . /\/\. . /\/\/\. . . . . . . . . /\/\. . . . . /\. /\/\/\~.{}{}~.~.. . /\%%%%            
+/\. /\/\/\/\. . . . /\/\/\/\/\. . . . /\. /\/\. /\/\/\/\. . . . . . /\  /\{}{}{}{}~.. /\%%%%              
+/\. . /\. . . . . /\/\/\/\/\/\. /\. /\/\. . /\/\/\/\. /\/\. . /\/\/\/\  /\/\{}. {}{}. /\%%%%              
+/\/\. /\. /\/\. . /\. . . /\/\. /\/\/\/\/\. . . . /\/\/\/\/\. . . /\      /\~.{}. {}. /\%%%%              
+  /\. . . /\/\/\. /\. /\. . /\. /\  /\. /\/\/\/\. . . . . . . /\/\/\      /\/\{}{}/\/\/\%%                
+  /\/\/\/\/\  /\. . . /\/\. . . /\            /\/\/\/\/\/\/\/\/\  /\        /\/\/\/\                      
+              /\/\/\/\/\/\/\/\/\/\
+<z>940</z> <x>120</x> <y>113</y> <n>Top of Stone Column</n> outdoor=true
+<autonomy>
+	<minimumSuggestedLevel>17</minimumSuggestedLevel>
+	<maximumSuggestedLevel>21</maximumSuggestedLevel>
+	<entities>orc(fighter|magus),ogre(champion|mystic)</entities>
+	<spawnIntensityMod>1</spawnIntensityMod>
+</autonomy>
+    %%%%%%%%%%%%%%%%    
+%%%%%%%%%%%%%%%%%%%%%%  
+%%%%%%%%%%/\~.~.%%%%%%%%
+%%%%%%/\. . . ~.~.%%%%%%
+%%%%~.c2. MM. ~.~./\%%%%
+%%%%~.~.. . . . . /\%%%%
+%%%%%%~.~./\. . . %%%%%%
+  %%%%%%~.~.~.. %%%%%%%%
+    %%%%%%%%%%%%%%%%%%%%
+      %%%%%%%%%%%%%%%%
+// Thor Level - Elevation 950'
+<z>950</z> <x>121</x> <y>135</y> <n>Chamber of Thor</n> norecall=true outdoor=true
+<autonomy>
+	<minimumSuggestedLevel>17</minimumSuggestedLevel>
+	<maximumSuggestedLevel>21</maximumSuggestedLevel>
+	<chaosportal>false</chaosportal>
+	<entities>[stone]golem,[earth]golem,wight(diabolist),[dark]wraith(diabolist),apparition</entities>
+	<spawnIntensityMod>6</spawnIntensityMod>
+	<uniqueEntity>
+		<entity>audrey</entity>
+		<x>126</x><y>145</y>
+		<spawnTimer>24</spawnTimer>
+	</uniqueEntity>
+	<artifact>
+		<itemID>29022</itemID>
+		<x>126</x>
+		<y>148</y>
+	</artifact>
+</autonomy>                     
+        %%%%%%%%/\    /\/\/\/\/\/\/\/\/\/\/\/\
+        %%%%%%%%%%%%%%/\. . . . ##. . ##. . /\
+        /\%%%%/\/\/\/\/\/\. ##. . . ##. ##. /\                /\/\/\
+        /\c2. /\. . /\. /\SM/\/\/\/\/\/\/\SM/\              /\/\. /\/\
+        /\/\. SM. . /\. . . /\/\. ##. . . . /\            /\/\. /\. /\
+          /\/\/\/\/\/\/\. . /\. . . . ##. /\/\          /\/\. /\/\. /\
+      /\/\/\. . /\. . /\/\/\/\/\SM/\/\/\/\/\          /\/\. /\/\. /\/\
+      /\. . . . SM. . . . . . /\. ##. /\/\          /\/\. /\/\. /\/\
+      /\. . . /\/\/\/\/\/\/\SM/\. . . . /\        /\/\. /\/\. /\/\
+      /\/\. . /\          /\. /\. ##. /\/\        /\. /\/\. /\/\
+      /\/\SM/\/\          /\. /\SM/\/\/\          /\. /\/\. /\
+    /\/\~.~.~./\          /\. /\. /\              /\. /\/\. /\
+    /\~.~.~.~./\/\        /\. /\. /\              /\. /\/\. /\
+    /\~.~.MM~.~./\        /\. /\. /\/\/\/\/\/\/\/\/\. /\/\. /\
+    /\/\~.~.~.~./\        /\. /\/\. . . . . . . . . . /\/\. /\
+      /\/\~.~./\/\        /\. /\/\/\/\/\/\/\/\/\/\/\/\/\. /\/\
+        /\/\/\/\          /\/\. . . . . . . . . . . . . /\/\
+                            /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+// Griffin's Nest - Elevation 1000'
+<z>1000</z> <x>107</x> <y>61</y> <n>Griffin's Nest</n> outdoor=true
+<autonomy>
+	<minimumSuggestedLevel>17</minimumSuggestedLevel>
+	<maximumSuggestedLevel>21</maximumSuggestedLevel>
+	<entities>[albino]chimera,[snow]griffin,[elder]hippogriff</entities>
+</autonomy>
+%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%
+%%%%%%/\. /\/\%%%%
+    /\c2. /\%%%%%%
+    /\/\/\up%%%%%%
+    %%%%%%%%%%%%%%
+    %%%%%%%%%%%%%%
+    %%%%%%%%%%%%%%
+// Makon Quest: Flute / Budda Teleport
+<z>1350</z> <x>75</x> <y>58</y> <n>Rift Glacier Monestary</n> outdoor=true
+  /\/\/\/\/\/\/\              
+  /\~.~./\~.~./\/\/\/\/\/\/\  
+/\/\~.. . . /\/\/\~.~.~.~./\/\
+/\~.~.. ::. /\~.~.~./\~./\[_/\
+/\~.~.. . . ~.~./\/\/\/\. /\/\
+/\/\MM~.~.~./\/\/\/\/\. /\/\  
+  /\/\~.~./\/\/\/\/\~./\/\    
+    /\/\/\/\/\/\[_~./\/\      
+%%/\/\/\/\/\/\[_. /\/\        
+%%%%~./\/\/\[_. /\/\%%        
+%%%%~.~.~.~.c2~.~.%%%%        
+%%%%%%%%%%%%%%%%%%%%%%        
+%%%%%%%%%%%%%%%%%%%%%%
+<z>1400</z> <x>72</x> <y>73</y> <n>The Horde</n> outdoor=true
+<autonomy>
+	<minimumSuggestedLevel>22</minimumSuggestedLevel>
+	<maximumSuggestedLevel>22</maximumSuggestedLevel>
+	<uniqueEntity>
+		<entity>rift_glacier_lightning_drake</entity>
+		<x>75</x><y>79</y>
+		<description>lightning|covered in scintillating silver scales</description>
+		<spawnTimer>3400</spawnTimer>
+		<spawnMessage>The ground shakes beneath your feet.</spawnMessage>
+		<lairCells>74|78 74|79 74|80 75|78 75|79 75|80 76|78 76|79 76|80</lairCells>
+	</uniqueEntity>
+</autonomy>
+          %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+          /\%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  /\/\/\/\/\~.~.~.%%%%%%%%%%%%%%%%%%%%%%%%
+/\/\~.~./\/\/\/\~.~.~.%%%%%%~.~.~.~.c2%%%%
+/\~.~.~./\/\/\/\/\/\~.~.~.~.~./\/\/\/\/\/\
+/\~.. . . ~./\/\/\/\/\/\~./\/\/\
+/\~.. . . ~.~.~./\/\~.~.~./\
+/\/\. . . /\/\~.~.~.~./\/\/\
+  /\/\/\/\/\/\/\/\/\/\/\
+<z>1420</z> <x>93</x> <y>44</y> <n>The Crypt Cliffs</n> <f>heavy</f> outdoor=true
+<autonomy>
+	<minimumSuggestedLevel>17</minimumSuggestedLevel>
+	<maximumSuggestedLevel>21</maximumSuggestedLevel>
+	<entities>orc(fighter|magus),ogre(champion|mystic),[snow]griffin,skeleton(warrior|monk),[frost]giant,rockworm</entities>
+</autonomy>
+                /\/\/\/\/\/\/\/\/\/\        /\/\/\/\/\        
+          /\/\/\/\/\~.. . . . ~.~./\/\/\  /\/\/\{}{}/\/\/\    
+          /\/\. . ~.~.. . . . . ~.~.~./\/\/\/\{}{}{}{}{}/\/\  
+        /\/\/\. ~.~.. /\. . . . . . ~.~./\/\/\{}~.~.~.{}{}/\  
+    /\/\/\/\~.. ~.. . /\/\/\/\. . . . . . . {}{}~.~.~.~.{}/\/\
+  /\/\~.~.~.. . . . . . /\/\/\/\. . . . . . {}. . . . ~.{}{}/\
+/\/\~.. . . . ~.. . {}. . /\. /\~./\. . ::::::::::::. . . {}/\
+/\~.. . ~.~.~.{}{}{}{}. /\/\. . /\/\. . ::DDDDDDDD::. . {}{}/\
+/\~.. . ~.. {}{}{}{}. . /\/\. /\/\. . . ::DD::. DD::. . {}/\/\
+/\~.~.. . . {}{}{}. . . . /\/\/\. . . . ::DDDDHDDD::. . {}/\  
+/\/\~.. . . {}{}{}. . ~.. . . . . . . . ::DDDD::DD::. {}{}/\  
+  /\~.. . {}{}{}{}{}. . . . . {}{}{}. . ::::::::::::{}{}/\/\  
+  /\~.. . . {}{}{}. . . . /\. . {}{}{}. . . . . {}{}{}/\/\    
+  /\/\. . . . . . . /\/\/\/\. . . {}{}{}. . . {}{}{}/\/\      
+    /\/\. . . . . /\/\/\/\. . . . {}{}{}. . . {}{}{}{}/\      
+      /\. . . /\. /\/\/\/\. . . {}{}{}{}{}. {}{}%%%%%%/\      
+    /\/\. . . /\/\/\  /\/\. . c2. {}{}{}{}%%%%%%%%%%%%%%      
+    /\. . . . /\        /\. . %%%%%%%%%%%%%%%%%%%%%%%%        
+    /\/\. . . /\/\    /\/\. %%%%%%%%%%%%%%%%%%                
+    /\/\. . . /\%%    %%%%%%%%%%%%%%%%%%%%                    
+    %%/\%%%%%%/\%%    %%%%%%%%%%%%%%%%%%
+    %%%%%%%%%%%%%%
+<z>1500</z> <x>95</x> <y>26</y> <n>The Gauntlet</n> norecall=true
+<autonomy>
+	<minimumSuggestedLevel>17</minimumSuggestedLevel>
+	<maximumSuggestedLevel>21</maximumSuggestedLevel>
+	<entities>orc(fighter|magus),ogre(champion|mystic),shadow</entities>
+</autonomy>
+    /\/\/\      
+/\/\/\::/\/\/\  
+/\. . . . . /\  
+/\/\/\. /\/\/\  
+/\/\/\. /\/\/\  
+/\. . . . . /\  
+/\/\/\. /\/\/\  
+/\/\/\. /\/\/\  
+/\. . . . . /\  
+/\/\/\. /\/\/\  
+/\/\/\. /\/\/\  
+/\. . . . . /\  
+/\/\/\. /\/\/\  
+    /\/\. /\    
+    /\. /\/\    
+  /\/\. /\      
+  /\. . /\      
+  /\/\. /\      
+    /\. /\      
+    /\. /\      
+    /\. /\/\/\  
+    /\. . %%/\/\
+  /\/\. . %%%%%%
+  /\%%%%%%%%%%%%
+  %%%%%%%%%%%%%%
+  %%%%%%%%%%%%%%
+//Level 3160' - Yasashii.Kaza
+<z>3160</z> <x>110</x> <y>61</y> <f>very_heavy</f> <n>Nice Kaza's Home</n> outdoor=true
+  /\/\/\/\/\/\/\/\/\/\
+%%%%%%%%::::::| ::::/\
+%%%%%%::%%%%%%##::::/\
+%%%%::%%%%%%%%/\/\/\/\
+  /\/\{}%%%%%%%%      
+  /\/\up%%%%%%%%      
+  /\/\dn%%%%%%%%      
+%%%%%%%%%%%%%%%%      
+%%%%%%%%%%%%%%%%      
+%%%%%%%%%%%%%%
+<z>6020</z> <x>103</x> <y>63</y> <n>Lair of the Cloud Dragon</n> outdoor=true norecall=true
+<autonomy>
+	<minimumSuggestedLevel>25</minimumSuggestedLevel>
+	<maximumSuggestedLevel>25</maximumSuggestedLevel>
+	<uniqueEntity>
+		<entity>rift_glacier_cloud_dragon</entity>
+		<x>110</x><y>69</y>
+		<description>cloud|with glistening storm-gray scales</description>
+		<spawnTimer>5400</spawnTimer>
+		<spawnMessage>Dark storm clouds gather far above you as balls of chains lightning flash across the sky.</spawnMessage>
+		<lairCells>107|70 108|70 108|69 108|68 109|70 109|69 109|68 110|70 110|69 110|68 111|70 111|69 111|68 112|70 112|69 112|68 113|70</lairCells>
+	</uniqueEntity>
+</autonomy>
+                %%%%%%%%%%%%%%
+%%%%%%%%%%DDDDDDDD%%%%%%%%%%%%
+%%%%%%%%%%DD::::| ::%%%%%%%%%%
+%%%%%%%%%%DD::::| ::dn%%%%%%%%
+%%%%%%%%DDDD----DDDDDD%%%%%%%%
+%%%%%%%%DD. ~.~.~.. DD%%%%%%%%
+%%%%%%DDDD. ~.~.~.. _]DD%%%%%%
+%%%%%%DD. . . ~.~.~.~._]%%%%%%
+%%%%%%DDDDDDDDMMDDDDDDDD%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

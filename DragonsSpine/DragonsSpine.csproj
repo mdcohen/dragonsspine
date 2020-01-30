@@ -1,0 +1,758 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BD095D2A-47DD-4172-9143-12DC0EABD79D}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>DragonsSpine.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>DragonsSpine</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>DragonsSpine</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>DragonsSpine.DragonsSpineMain</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetZone>LocalIntranet</TargetZone>
+    <GenerateManifests>false</GenerateManifests>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>http://localhost/DragonsSpine/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <ApplicationRevision>0</ApplicationRevision>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Net, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="PowerCollections">
+      <HintPath>Dlls\PowerCollections.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.ServiceProcess">
+      <Name>System.ServiceProcess</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Autonomy\EntityBuilding\EntityLists.cs" />
+    <Compile Include="Autonomy\ItemBuilding\BookManager.cs" />
+    <Compile Include="Autonomy\ItemBuilding\LootTable.cs" />
+    <Compile Include="Autonomy\ItemBuilding\RawMaterialManager.cs" />
+    <Compile Include="Autonomy\ItemBuilding\ItemBuilder.cs" />
+    <Compile Include="Autonomy\ItemBuilding\ItemGenerationManager.cs" />
+    <Compile Include="Autonomy\ItemBuilding\ItemEntityLists.cs" />
+    <Compile Include="Autonomy\ItemBuilding\ScrollManager.cs" />
+    <Compile Include="Autonomy\ItemBuilding\SpellTrinketsManager.cs" />
+    <Compile Include="Autonomy\ItemBuilding\WandManager.cs" />
+    <Compile Include="DAL\DBAdmin.cs" />
+    <Compile Include="DAL\DBQuest.cs" />
+    <Compile Include="GameCommands\Chant Commands\AncestorPortalChantCommand.cs" />
+    <Compile Include="GameCommands\Chant Commands\Demon Name Commands\AsmodeusCommand.cs" />
+    <Compile Include="GameCommands\Chant Commands\Demon Name Commands\DamballaCommand.cs" />
+    <Compile Include="GameCommands\Chant Commands\Demon Name Commands\GlamdrangCommand.cs" />
+    <Compile Include="GameCommands\Chant Commands\Demon Name Commands\HellEntryCommand.cs" />
+    <Compile Include="GameCommands\Chant Commands\Demon Name Commands\PazuzuCommand.cs" />
+    <Compile Include="GameCommands\Chant Commands\DemonSummoningChantCommand.cs" />
+    <Compile Include="GameCommands\Chant Commands\Demon Name Commands\PerduraboCommand.cs" />
+    <Compile Include="GameCommands\Chant Commands\Demon Name Commands\SamaelCommand.cs" />
+    <Compile Include="GameCommands\Chant Commands\Demon Name Commands\ThamuzCommand.cs" />
+    <Compile Include="GameCommands\Chant Commands\MapPortalChantCommand.cs" />
+    <Compile Include="GameCommands\Chant Commands\UnderworldPortalEntranceChantCommandcs.cs" />
+    <Compile Include="GameCommands\Conference and Game Commands\RenameCommand.cs" />
+    <Compile Include="GameCommands\Conference and Game Commands\RollDiceCommand.cs" />
+    <Compile Include="GameCommands\Conference Only Commands\ChangePasswordCommand.cs" />
+    <Compile Include="GameCommands\Conference Only Commands\CommandsListCommand.cs" />
+    <Compile Include="GameCommands\Conference Only Commands\DisplayDocumentCommand.cs" />
+    <Compile Include="GameCommands\Conference Only Commands\DocumentCommand.cs" />
+    <Compile Include="GameCommands\Conference and Game Commands\ScoresCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\DEVJR\ImpAddStoreItemCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\DEVJR\ImpCastCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\DEVJR\ImpCellModCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\DEVJR\ImpChangePassword.cs" />
+    <Compile Include="GameCommands\Implementer Commands\DEVJR\ImpClearEffectsCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\DEVJR\ImpCreateCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\DEVJR\ImpDeleteSpawnCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\DEVJR\ImpDeleteStoreItemCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\DEVJR\ImpEnslaveCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\DEVJR\ImpGetItemStatsCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\DEVJR\ImpGetLootTableCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\DEVJR\ImpGetNPCStatsCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\DEVJR\ImpGiveSkillXpCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\DEVJR\ImpGiveXpCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\DEVJR\ImpGoHomeCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\DEVJR\ImpGotoNPCCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\DEVJR\ImpGotoPCCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\DEVJR\ImpItemCatalogSearchCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\DEVJR\ImpItemSearchCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\DEVJR\ImpKillCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\DEVJR\ImpNewsCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\DEVJR\ImpNewSpawnCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\DEVJR\ImpRespawnCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\DEVJR\ImpSetChronoCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\DEVJR\ImpSetStatCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\DEVJR\ImpSetVisualKeyCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\DEVJR\ImpShowCellCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\DEVJR\ImpShowCommandsCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\DEVJR\ImpShowInventory.cs" />
+    <Compile Include="GameCommands\Implementer Commands\DEVJR\ImpShowLogsCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\DEVJR\ImpShowSkillsCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\DEVJR\ImpSummonCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\DEVJR\ImpWarmSpellCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\DEV\ImpChangeServerSettingCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\DEV\ImpDBQueryCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\DEV\ImpFollowCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\DEV\ImpReloadItemCatalogCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\DEV\ImpUpdateAppConfigCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\GM\ImpAttuneCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\GM\ImpBanCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\GM\ImpBootCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\GM\ImpDisarmCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\GM\ImpHealCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\GM\ImpImmortalCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\GM\ImpInvisibleCommandcs.cs" />
+    <Compile Include="GameCommands\Implementer Commands\GM\ImpReturnFromUnderworld.cs" />
+    <Compile Include="GameCommands\Implementer Commands\ImpGoToLocationCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\ImpLandEmoteCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\ImpMapEmoteCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\ImpPsiTelCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\ImpRenameCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\ImpTitleCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\ImpWhereAmICommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\ImpWorldEmoteCommand.cs" />
+    <Compile Include="GameCommands\Implementer Commands\ImpHelpCommand.cs" />
+    <Compile Include="GameCommands\Item Manipulation Commands\GiveCommand.cs" />
+    <Compile Include="GameCommands\Item Manipulation Commands\PouchCommand.cs" />
+    <Compile Include="GameCommands\Item Manipulation Commands\PouchDumpCommand.cs" />
+    <Compile Include="GameCommands\Item Manipulation Commands\RemoveCommand.cs" />
+    <Compile Include="GameCommands\Item Manipulation Commands\RubCommand.cs" />
+    <Compile Include="GameCommands\Item Manipulation Commands\SackCommand.cs" />
+    <Compile Include="GameCommands\Item Manipulation Commands\ScoopPouchCommand.cs" />
+    <Compile Include="GameCommands\Movement Commands\Direction Commands\EastCommand.cs" />
+    <Compile Include="GameCommands\Movement Commands\Direction Commands\NorthCommand.cs" />
+    <Compile Include="GameCommands\Movement Commands\Direction Commands\NortheastCommand.cs" />
+    <Compile Include="GameCommands\Movement Commands\Direction Commands\NorthwestCommand.cs" />
+    <Compile Include="GameCommands\Movement Commands\Direction Commands\SouthCommand.cs" />
+    <Compile Include="GameCommands\Movement Commands\Direction Commands\SoutheastCommand.cs" />
+    <Compile Include="GameCommands\Movement Commands\Direction Commands\SouthwestCommand.cs" />
+    <Compile Include="GameCommands\Movement Commands\Direction Commands\WestCommand.cs" />
+    <Compile Include="GameCommands\Chant Commands\ReversePortalChantCommand.cs" />
+    <Compile Include="GameCommands\Other Commands\FinishUW.cs" />
+    <Compile Include="GameCommands\Other Commands\LockDoorCommand.cs" />
+    <Compile Include="GameCommands\Other Commands\MailCommand.cs" />
+    <Compile Include="GameCommands\Other Commands\PetCommand.cs" />
+    <Compile Include="GameCommands\Other Commands\SayCommand.cs" />
+    <Compile Include="GameCommands\Other Commands\UnlockDoorCommand.cs" />
+    <Compile Include="GameCommands\Settings Commands\AnonymousCommand.cs" />
+    <Compile Include="GameCommands\Settings Commands\DisplayCombatDamageCommand.cs" />
+    <Compile Include="GameCommands\Settings Commands\DisplayDamageShieldCommand.cs" />
+    <Compile Include="GameCommands\Settings Commands\DisplayGameRoundCommand.cs" />
+    <Compile Include="GameCommands\Settings Commands\DisplayPetDamageCommand.cs" />
+    <Compile Include="GameCommands\Settings Commands\DisplayPetMessagesCommand.cs" />
+    <Compile Include="GameCommands\Settings Commands\EchoCommand.cs" />
+    <Compile Include="GameCommands\Settings Commands\ToggleDPSLoggingCommand.cs" />
+    <Compile Include="GameCommands\Settings Commands\ToggleTalentCommand.cs" />
+    <Compile Include="GameCommands\Show Commands\ShowDPSCommand.cs" />
+    <Compile Include="GameCommands\Show Commands\ShowExperienceLevelsCommand.cs" />
+    <Compile Include="GameCommands\Show Commands\ShowFlagsCommand.cs" />
+    <Compile Include="GameCommands\Show Commands\ShowPouchCommand.cs" />
+    <Compile Include="GameCommands\Show Commands\ShowSavesCommand.cs" />
+    <Compile Include="GameCommands\Show Commands\ShowTalentsCommand.cs" />
+    <Compile Include="GameEffects\GameEffect.cs" />
+    <Compile Include="GameEvents\GameEvent.cs" />
+    <Compile Include="GameEvents\GameEventAttribute.cs" />
+    <Compile Include="GameEvents\IGameEventHandler.cs" />
+    <Compile Include="GameEvents\Holiday Events\Thanksgiving2015Event.cs" />
+    <Compile Include="GameObjects\Character\Adventurer.cs" />
+    <Compile Include="GameObjects\Character\AI.cs" />
+    <Compile Include="GameObjects\Character\Character.cs" />
+    <Compile Include="GameObjects\Character\PathTest.cs" />
+    <Compile Include="Autonomy\ItemBuilding\ArmorSets\ArmorSet.cs" />
+    <Compile Include="Autonomy\ItemBuilding\ArmorSets\ArmorSetAttribute.cs" />
+    <Compile Include="Autonomy\ItemBuilding\ArmorSets\BasicBandedMailArmorSet.cs" />
+    <Compile Include="Autonomy\ItemBuilding\ArmorSets\BasicChainmailArmorSet.cs" />
+    <Compile Include="Autonomy\ItemBuilding\ArmorSets\BasicLeatherArmorSet.cs" />
+    <Compile Include="Autonomy\ItemBuilding\ArmorSets\BasicScalemailArmorSet.cs" />
+    <Compile Include="Autonomy\ItemBuilding\ArmorSets\BasicSteelArmorSet.cs" />
+    <Compile Include="Autonomy\ItemBuilding\ArmorSets\BasicStuddedLeatherArmorSet.cs" />
+    <Compile Include="Autonomy\ItemBuilding\ArmorSets\FullBandedMailArmorSet.cs" />
+    <Compile Include="Autonomy\ItemBuilding\ArmorSets\FullChainmailArmorSet.cs" />
+    <Compile Include="Autonomy\ItemBuilding\ArmorSets\FullLeatherArmorSet.cs" />
+    <Compile Include="Autonomy\ItemBuilding\ArmorSets\FullScalemailArmorSet.cs" />
+    <Compile Include="Autonomy\ItemBuilding\ArmorSets\FullSteelArmorSet.cs" />
+    <Compile Include="Autonomy\ItemBuilding\ArmorSets\IArmorSetBenefit.cs" />
+    <Compile Include="GameObjects\Character\WeaponProc.cs" />
+    <Compile Include="GameObjects\Item\Corpse.cs" />
+    <Compile Include="GameObjects\Item\SoulGem.cs" />
+    <Compile Include="GameProfessions\ProfessionAttribute.cs" />
+    <Compile Include="GameSpells\Druid Spells\CynosureSpell.cs" />
+    <Compile Include="GameSpells\Druid Spells\IceshardSpell.cs" />
+    <Compile Include="GameSpells\Druid Spells\TrochilidaeSpell.cs" />
+    <Compile Include="GameSpells\Druid Spells\MarkOfVitalitySpell.cs" />
+    <Compile Include="GameSpells\Druid Spells\RegenerationSpell.cs" />
+    <Compile Include="GameSpells\Druid Spells\AtaraxiaSpell.cs" />
+    <Compile Include="GameSpells\Druid Spells\ShelterSpell.cs" />
+    <Compile Include="GameSpells\Multi Class Spells\FaerieFireSpell.cs" />
+    <Compile Include="GameSpells\Multi Class Spells\SummonNaturesAllySpell.cs" />
+    <Compile Include="GameSpells\Druid Spells\Thunderwave.cs" />
+    <Compile Include="GameSpells\Druid Spells\WallOfFogSpell.cs" />
+    <Compile Include="GameSpells\Knight Spells\SummonLamassuSpell.cs" />
+    <Compile Include="GameSpells\Multi Class Spells\BarkskinSpell.cs" />
+    <Compile Include="GameSpells\Multi Class Spells\EnsnareSpell.cs" />
+    <Compile Include="GameSpells\Multi Class Spells\GhodsHooksSpell.cs" />
+    <Compile Include="GameSpells\Multi Class Spells\ProtectionFromLightningSpell.cs" />
+    <Compile Include="GameSpells\Multi Class Spells\StoneskinSpell.cs" />
+    <Compile Include="GameSpells\Other Spells\BazymonsBountySpell.cs" />
+    <Compile Include="GameSpells\Other Spells\CognoscereSpell.cs" />
+    <Compile Include="GameSpells\Other Spells\DrudgerySpell.cs" />
+    <Compile Include="GameSpells\Other Spells\FerocitySpell.cs" />
+    <Compile Include="GameSpells\Other Spells\GnostikosSpell.cs" />
+    <Compile Include="GameSpells\Druid Spells\JuvenisSpell.cs" />
+    <Compile Include="GameSpells\Other Spells\LagniappeSpell.cs" />
+    <Compile Include="GameSpells\Other Spells\SavagerySpell.cs" />
+    <Compile Include="GameSpells\Other Spells\SummonHumanoidSpell.cs" />
+    <Compile Include="GameSpells\Other Spells\TheWitheringSpell.cs" />
+    <Compile Include="GameSpells\Ranger Spells\HuntersMarkSpell.cs" />
+    <Compile Include="GameSpells\Ravager Spells\SummonHellhoundSpell.cs" />
+    <Compile Include="GameSpells\Sorcerer Spells\CageSoulSpell.cs" />
+    <Compile Include="GameSpells\Multi Class Spells\DetectUndeadSpell.cs" />
+    <Compile Include="GameSpells\Sorcerer Spells\LocustSwarmSpell.cs" />
+    <Compile Include="GameSpells\Sorcerer Spells\ProtectionFromAcidSpell.cs" />
+    <Compile Include="GameSpells\Sorcerer Spells\StrangleholdSpell.cs" />
+    <Compile Include="GameSpells\Sorcerer Spells\WalkingDeathSpell.cs" />
+    <Compile Include="GameSpells\Thaumatuge Spells\ProtectionFromHellspawnSpell.cs" />
+    <Compile Include="GameSpells\Thaumatuge Spells\TempestSpell.cs" />
+    <Compile Include="GameSpells\Thief Spells\TransmuteSpell.cs" />
+    <Compile Include="GameSpells\Thief Spells\UmbralFormSpell.cs" />
+    <Compile Include="GameSpells\Wizard Spells\ChaosPortalSpell.cs" />
+    <Compile Include="GameSystems\Account\Account.cs" />
+    <Compile Include="Autonomy\EntityBuilding\EntityCreationManager.cs" />
+    <Compile Include="Autonomy\EntityBuilding\EntityBuilder.cs" />
+    <Compile Include="Autonomy\ItemBuilding\LootManager.cs" />
+    <Compile Include="GameCommands\Other Commands\AgainCommand.cs" />
+    <Compile Include="GameCommands\Movement Commands\ClimbCommand.cs" />
+    <Compile Include="GameCommands\Other Commands\CastCommand.cs" />
+    <Compile Include="GameCommands\Item Manipulation Commands\DrinkCommand.cs" />
+    <Compile Include="GameCommands\Item Manipulation Commands\CloseCommand.cs" />
+    <Compile Include="GameCommands\Movement Commands\ChaseCommand.cs" />
+    <Compile Include="GameCommands\Item Manipulation Commands\BeltCommand.cs" />
+    <Compile Include="GameCommands\Other Commands\BalanceCommand.cs" />
+    <Compile Include="GameCommands\CommandAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameCommands\Other Commands\DepositCommand.cs" />
+    <Compile Include="GameCommands\Item Manipulation Commands\DropCommand.cs" />
+    <Compile Include="GameCommands\Movement Commands\DownCommand.cs" />
+    <Compile Include="GameCommands\Movement Commands\CrawlCommand.cs" />
+    <Compile Include="GameCommands\Item Manipulation Commands\EatCommand.cs" />
+    <Compile Include="GameCommands\Item Manipulation Commands\DumpCommand.cs" />
+    <Compile Include="GameCommands\Emote.cs" />
+    <Compile Include="GameCommands\Combat Commands\FightCommand.cs" />
+    <Compile Include="GameCommands\Item Manipulation Commands\FlipCommand.cs" />
+    <Compile Include="GameCommands\Conference and Game Commands\ForgiveCommand.cs" />
+    <Compile Include="GameCommands\GameCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameCommands\Conference and Game Commands\HelpCommand.cs" />
+    <Compile Include="GameCommands\Other Commands\GroupCommand.cs" />
+    <Compile Include="GameCommands\ICommandHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameCommands\Other Commands\WithdrawCommand.cs" />
+    <Compile Include="GameCommands\Other Commands\MacroCommand.cs" />
+    <Compile Include="GameCommands\Show Commands\ShowInventoryCommand.cs" />
+    <Compile Include="GameCommands\Show Commands\ShowBeltCommand.cs" />
+    <Compile Include="GameCommands\Show Commands\ShowSackCommand.cs" />
+    <Compile Include="GameCommands\Show Commands\ShowLockerCommand.cs" />
+    <Compile Include="GameCommands\Show Commands\ShowStatsCommand.cs" />
+    <Compile Include="GameCommands\Show Commands\ShowSkillsCommand.cs" />
+    <Compile Include="GameCommands\Show Commands\ShowRingsCommand.cs" />
+    <Compile Include="GameCommands\Show Commands\ShowResistsCommand.cs" />
+    <Compile Include="GameCommands\Show Commands\ShowProtectionCommand.cs" />
+    <Compile Include="GameCommands\Show Commands\ShowSpellEffectsCommand.cs" />
+    <Compile Include="GameCommands\Show Commands\ShowItemEffectsCommand.cs" />
+    <Compile Include="GameCommands\Show Commands\ShowTemporaryStatsCommandcs.cs" />
+    <Compile Include="GameCommands\Show Commands\ShowArmorClassCommand.cs" />
+    <Compile Include="GameCommands\Show Commands\ShowTrainingCommand.cs" />
+    <Compile Include="GameCommands\Show Commands\ShowPetsCommand.cs" />
+    <Compile Include="GameCommands\Show Commands\ShowQuestsCommand.cs" />
+    <Compile Include="GameCommands\Show Commands\ShowSpellsCommand.cs" />
+    <Compile Include="GameCommands\Other Commands\WhoCommand.cs" />
+    <Compile Include="GameCommands\Item Manipulation Commands\WieldCommand.cs" />
+    <Compile Include="GameCommands\Movement Commands\UpCommandcs.cs" />
+    <Compile Include="GameCommands\Movement Commands\SwimCommand.cs" />
+    <Compile Include="GameCommands\Combat Commands\JumpkickCommand.cs" />
+    <Compile Include="GameCommands\Combat Commands\KickCommand.cs" />
+    <Compile Include="GameCommands\Item Manipulation Commands\NockCommand.cs" />
+    <Compile Include="GameCommands\Combat Commands\ShootCommand.cs" />
+    <Compile Include="GameCommands\Combat Commands\ThrowCommand.cs" />
+    <Compile Include="GameCommands\Other Commands\QuitCommand.cs" />
+    <Compile Include="GameCommands\Movement Commands\SweepCommand.cs" />
+    <Compile Include="GameCommands\Other Commands\MeditateCommand.cs" />
+    <Compile Include="GameCommands\Other Commands\RestCommand.cs" />
+    <Compile Include="GameCommands\Item Manipulation Commands\TakeCommand.cs" />
+    <Compile Include="GameCommands\Combat Commands\PokeCommand.cs" />
+    <Compile Include="GameCommands\Item Manipulation Commands\ReadCommand.cs" />
+    <Compile Include="GameCommands\Item Manipulation Commands\OpenCommand.cs" />
+    <Compile Include="GameCommands\Movement Commands\PushCommand.cs" />
+    <Compile Include="GameCommands\Other Commands\RedrawCommand.cs" />
+    <Compile Include="GameCommands\Item Manipulation Commands\ScribeCommand.cs" />
+    <Compile Include="GameCommands\Item Manipulation Commands\PutCommand.cs" />
+    <Compile Include="GameCommands\Item Manipulation Commands\WearCommand.cs" />
+    <Compile Include="GameCommands\Item Manipulation Commands\SwapCommand.cs" />
+    <Compile Include="GameCommands\Other Commands\SearchCommand.cs" />
+    <Compile Include="GameCommands\Item Manipulation Commands\ScoopSackCommand.cs" />
+    <Compile Include="GameCommands\Item Manipulation Commands\QuaffCommand.cs" />
+    <Compile Include="GameCommands\Conference and Game Commands\TellCommand.cs" />
+    <Compile Include="GameCommands\Other Commands\LookCommand.cs" />
+    <Compile Include="GameSystems\Config\GameServerSettings.cs" />
+    <Compile Include="GameEffects\AreaEffect.cs" />
+    <Compile Include="GameEffects\MovingAreaEffect.cs" />
+    <Compile Include="GameEffects\CharacterEffect.cs" />
+    <Compile Include="GameMail\Email\EmailManager.cs" />
+    <Compile Include="GameMail\GameMailbox.cs" />
+    <Compile Include="GameObjects\Item\Book.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameObjects\Item\Bottle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameSystems\Network\Clients\Protocol\DSPClient.cs" />
+    <Compile Include="GameSystems\Network\Clients\Protocol\DSPNet.cs" />
+    <Compile Include="GameSystems\Network\Clients\Protocol\DSPPacket.cs" />
+    <Compile Include="GameSystems\Network\Clients\Protocol\DSPServer.cs" />
+    <Compile Include="GameSystems\Network\Clients\Protocol\ProtoClientIO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameSystems\Network\Clients\Text\TextClientIO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameSystems\Rules\Combat.cs" />
+    <Compile Include="GameSpells\GameSpell.cs" />
+    <Compile Include="GameSpells\ISpellHandler.cs" />
+    <Compile Include="GameSpells\Knight Spells\BlessSpell.cs" />
+    <Compile Include="GameSpells\Multi Class Spells\CloseOpenDoorSpell.cs" />
+    <Compile Include="GameSpells\Multi Class Spells\CreatePortalSpell.cs" />
+    <Compile Include="GameSpells\Multi Class Spells\CureSpell.cs" />
+    <Compile Include="GameSpells\Multi Class Spells\DarknessSpell.cs" />
+    <Compile Include="GameSpells\Multi Class Spells\FearSpell.cs" />
+    <Compile Include="GameSpells\Multi Class Spells\FindSecretDoorSpell.cs" />
+    <Compile Include="GameSpells\Multi Class Spells\LifeleechSpell.cs" />
+    <Compile Include="GameSpells\Multi Class Spells\LightningStormSpell.cs" />
+    <Compile Include="GameSpells\Multi Class Spells\LightSpell.cs" />
+    <Compile Include="GameSpells\Multi Class Spells\LocateSpell.cs" />
+    <Compile Include="GameSpells\Multi Class Spells\NeutralizePoisonSpell.cs" />
+    <Compile Include="GameSpells\Multi Class Spells\ProtectionFromColdSpell.cs" />
+    <Compile Include="GameSpells\Multi Class Spells\ProtectionFromFire.cs" />
+    <Compile Include="GameSpells\Multi Class Spells\ProtectionFromFireAndIceSpell.cs" />
+    <Compile Include="GameSpells\Multi Class Spells\StrengthSpell.cs" />
+    <Compile Include="GameSpells\Multi Class Spells\WizardEyeSpell.cs" />
+    <Compile Include="GameSpells\Other Spells\ChainLightningSpell.cs" />
+    <Compile Include="GameSpells\Ravager Spells\FlameShieldSpell.cs" />
+    <Compile Include="GameSpells\Multi Class Spells\MinorProtectionFromFireSpell.cs" />
+    <Compile Include="GameSpells\Sorcerer Spells\AcidOrbSpell.cs" />
+    <Compile Include="GameSpells\Sorcerer Spells\AcidRainSpell.cs" />
+    <Compile Include="GameSpells\Sorcerer Spells\AnimateDeadSpell.cs" />
+    <Compile Include="GameSpells\Multi Class Spells\CharmAnimalSpell.cs" />
+    <Compile Include="GameSpells\Sorcerer Spells\CommandUndeadSpell.cs" />
+    <Compile Include="GameSpells\Sorcerer Spells\ContagionSpell.cs" />
+    <Compile Include="GameSpells\Sorcerer Spells\DismissUndeadSpell.cs" />
+    <Compile Include="GameSpells\Sorcerer Spells\HaltUndeadSpell.cs" />
+    <Compile Include="GameSpells\Sorcerer Spells\HealServant.cs" />
+    <Compile Include="GameSpells\Sorcerer Spells\ImageSpell.cs" />
+    <Compile Include="GameSpells\Sorcerer Spells\PowerWordSilenceSpell.cs" />
+    <Compile Include="GameSpells\Multi Class Spells\ProtectionFromUndeadSpell.cs" />
+    <Compile Include="GameSpells\SpellAttribute.cs" />
+    <Compile Include="GameSpells\Thaumatuge Spells\BanishSpell.cs" />
+    <Compile Include="GameSpells\Thaumatuge Spells\BlindSpell.cs" />
+    <Compile Include="GameSpells\Multi Class Spells\BreatheWaterSpell.cs" />
+    <Compile Include="GameSpells\Thaumatuge Spells\CreateSnakeSpell.cs" />
+    <Compile Include="GameSpells\Thaumatuge Spells\CurseSpell.cs" />
+    <Compile Include="GameSpells\Thaumatuge Spells\DeathSpell.cs" />
+    <Compile Include="GameSpells\Multi Class Spells\LightningBoltSpell.cs" />
+    <Compile Include="GameSpells\Thaumatuge Spells\PoisonCloudSpell.cs" />
+    <Compile Include="GameSpells\Thaumatuge Spells\ResistanceFromBlindAndFearSpell.cs" />
+    <Compile Include="GameSpells\Multi Class Spells\ProtectionFromPoisonSpell.cs" />
+    <Compile Include="GameSpells\Thaumatuge Spells\ProtectionFromStunAndDeathSpell.cs" />
+    <Compile Include="GameSpells\Thaumatuge Spells\RaiseTheDeadSpell.cs" />
+    <Compile Include="GameSpells\Thaumatuge Spells\ResistBlindnessSpell.cs" />
+    <Compile Include="GameSpells\Thaumatuge Spells\ResistDeathSpell.cs" />
+    <Compile Include="GameSpells\Thaumatuge Spells\ResistFearSpell.cs" />
+    <Compile Include="GameSpells\Multi Class Spells\ResistLightningSpell.cs" />
+    <Compile Include="GameSpells\Thaumatuge Spells\ResistStunSpell.cs" />
+    <Compile Include="GameSpells\Thaumatuge Spells\StunSpell.cs" />
+    <Compile Include="GameSpells\Sorcerer Spells\SummonDemonSpell.cs" />
+    <Compile Include="GameSpells\Thaumatuge Spells\SummonPhantasmSpell.cs" />
+    <Compile Include="GameSpells\Thaumatuge Spells\TurnUndeadSpell.cs" />
+    <Compile Include="GameSpells\Thief Spells\FeatherFallSpell.cs" />
+    <Compile Include="GameSpells\Thief Spells\HideDoorSpell.cs" />
+    <Compile Include="GameSpells\Thief Spells\HideInShadowsSpell.cs" />
+    <Compile Include="GameSpells\Thief Spells\IdentifySpell.cs" />
+    <Compile Include="GameSpells\Thief Spells\ObfuscationSpell.cs" />
+    <Compile Include="GameSpells\Thief Spells\MakeRecallSpell.cs" />
+    <Compile Include="GameSpells\Multi Class Spells\NightVisionSpell.cs" />
+    <Compile Include="GameSpells\Thief Spells\SpeedSpell.cs" />
+    <Compile Include="GameSpells\Thief Spells\VenomSpell.cs" />
+    <Compile Include="GameSpells\Wizard Spells\BlizzardSpell.cs" />
+    <Compile Include="GameSpells\Wizard Spells\BonfireSpell.cs" />
+    <Compile Include="GameSpells\Wizard Spells\ConcussionSpell.cs" />
+    <Compile Include="GameSpells\Wizard Spells\CreateIllusionSpell.cs" />
+    <Compile Include="GameSpells\Wizard Spells\CreateLavaSpell.cs" />
+    <Compile Include="GameSpells\Wizard Spells\CreateWebSpell.cs" />
+    <Compile Include="GameSpells\Wizard Spells\DisintegrateSpell.cs" />
+    <Compile Include="GameSpells\Wizard Spells\DispelIllusionSpell.cs" />
+    <Compile Include="GameSpells\Wizard Spells\DragonsBreathSpell.cs" />
+    <Compile Include="GameSpells\Wizard Spells\FireballSpell.cs" />
+    <Compile Include="GameSpells\Wizard Spells\FireboltSpell.cs" />
+    <Compile Include="GameSpells\Wizard Spells\FirestormSpell.cs" />
+    <Compile Include="GameSpells\Wizard Spells\FirewallSpell.cs" />
+    <Compile Include="GameSpells\Wizard Spells\IcespearSpell.cs" />
+    <Compile Include="GameSpells\Wizard Spells\IcestormSpell.cs" />
+    <Compile Include="GameSpells\Wizard Spells\LightningLanceSpell.cs" />
+    <Compile Include="GameSpells\Wizard Spells\MagicMissileSpell.cs" />
+    <Compile Include="GameSpells\Wizard Spells\PeekSpell.cs" />
+    <Compile Include="GameSpells\Multi Class Spells\ShieldSpell.cs" />
+    <Compile Include="GameSpells\Multi Class Spells\WhirlwindSpell.cs" />
+    <Compile Include="GameSystems\Skills\DPSCalculator.cs" />
+    <Compile Include="GameSystems\Targeting\TargetAquisition.cs" />
+    <Compile Include="GameSystems\Text\Language\Language.cs" />
+    <Compile Include="GameSystems\Text\NameGenerator.cs" />
+    <Compile Include="GameSystems\Text\TextManager.cs" />
+    <Compile Include="GameTalents\Multi Class Talents\CleaveTalent.cs" />
+    <Compile Include="GameTalents\Fighter Talents\ShieldBashTalent.cs" />
+    <Compile Include="GameTalents\GameTalent.cs" />
+    <Compile Include="GameTalents\ITalentHandler.cs" />
+    <Compile Include="GameTalents\ITalentTree.cs" />
+    <Compile Include="GameTalents\Martial Artist Talents\FlyingFuryTalent.cs" />
+    <Compile Include="GameTalents\Martial Artist Talents\LegSweepTalent.cs" />
+    <Compile Include="GameTalents\Martial Artist Talents\RapidKicksTalent.cs" />
+    <Compile Include="GameTalents\Martial Artist Talents\RoundhouseKickTalent.cs" />
+    <Compile Include="GameTalents\Multi Class Talents\BattleChargeTalent.cs" />
+    <Compile Include="GameTalents\Multi Class Talents\BlindFightingTalent.cs" />
+    <Compile Include="GameTalents\Multi Class Talents\DoubleAttackTalent.cs" />
+    <Compile Include="GameTalents\Multi Class Talents\DualWieldTalent.cs" />
+    <Compile Include="GameTalents\Multi Class Talents\GageTalent.cs" />
+    <Compile Include="GameTalents\Multi Class Talents\RiposteTalent.cs" />
+    <Compile Include="GameTalents\Spellcaster Talents\MemorizeTalent.cs" />
+    <Compile Include="GameTalents\Thief Talents\AssassinateTalent.cs" />
+    <Compile Include="GameTalents\Thief Talents\DaggerstormTalent.cs" />
+    <Compile Include="GameTalents\Thief Talents\PickLocksTalent.cs" />
+    <Compile Include="GameTalents\Thief Talents\StealTalent.cs" />
+    <Compile Include="GameTalents\TalentAttribute.cs" />
+    <Compile Include="GameSystems\Utilities\Dice.cs" />
+    <Compile Include="GameTalents\Thief Talents\BackstabTalent.cs" />
+    <Compile Include="GameTalents\Thief Talents\SnoopTalent.cs" />
+    <Compile Include="GameWorld\ZArtifact.cs" />
+    <Compile Include="GameWorld\ZAutonomy.cs" />
+    <Compile Include="GameWorld\ZUniqueEntity.cs" />
+    <Compile Include="GameWorld\ZPlane.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="GameWorld\Cell.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WindowForms\CharacterEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WindowForms\CharacterEditor.designer.cs">
+      <DependentUpon>CharacterEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameSystems\Menus\CharGen.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameCommands\CommandTasker.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameSystems\Menus\Conference.cs" />
+    <Compile Include="GameSystems\Utilities\ConsoleWriter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\DataAccess.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\DBAccount.cs" />
+    <Compile Include="DAL\DBEditor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\DBItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\DBMail.cs" />
+    <Compile Include="DAL\DBNPC.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\DBPlayer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\DBWorld.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\DSpineDB.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\SQLStoredProcedures.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DragonsSpineMain.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameEffects\Effect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameSystems\Globals\Globals.cs" />
+    <Compile Include="GameWorld\Facet.cs" />
+    <Compile Include="GameObjects\Item\Food.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameSystems\Groups\CharacterGroup.cs" />
+    <Compile Include="GameSystems\Network\IO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameObjects\Item\Item.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameWorld\Land.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameMail\GameMailMessage.cs" />
+    <Compile Include="GameMail\GameMailAttachment.cs" />
+    <Compile Include="GameWorld\Map.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WindowForms\MapEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WindowForms\MapEditor.Designer.cs">
+      <DependentUpon>MapEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameSystems\Menus\Menu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameObjects\Character\Merchant.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameObjects\Character\NPC.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameObjects\Character\PC.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameSystems\Utilities\Point.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="GameSystems\Network\ProtocolYuusha.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameSystems\Quests\Quest.cs" />
+    <Compile Include="GameSystems\Rules\Rules.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameWorld\Segue.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WindowForms\ServerWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WindowForms\ServerWindow.designer.cs">
+      <DependentUpon>ServerWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameSystems\Skills\Skills.cs" />
+    <Compile Include="GameSystems\Sounds\Sound.cs" />
+    <Compile Include="GameWorld\SpawnZone.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameSystems\Stores\StoreItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameSystems\Utilities\Utils.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameSystems\Utilities\WinConsole.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameWorld\World.cs" />
+    <Content Include="Maps\Annwn.txt" />
+    <Content Include="Maps\Axe Glacier.txt" />
+    <Content Include="Maps\Deep Kesmai.txt" />
+    <Content Include="Maps\Eridu.txt" />
+    <Content Include="Maps\Hell.txt" />
+    <Content Include="Maps\Innkadi.txt" />
+    <Content Include="Maps\Island of Kesmai.txt" />
+    <Content Include="Maps\Leng.txt" />
+    <Content Include="Maps\Oakvael.txt" />
+    <Content Include="Maps\Praetoseba.txt" />
+    <Content Include="Maps\Rift Glacier.txt" />
+    <Content Include="Maps\Shukumei.txt" />
+    <Content Include="Maps\Torii.txt" />
+    <Content Include="Maps\Underkingdom.txt" />
+    <Content Include="Update Notes.txt" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <BaseApplicationManifest Include="Properties\app.manifest" />
+    <Compile Include="Autonomy\ItemBuilding\ArmorSets\FullStuddedLeatherArmorSet.cs" />
+    <None Include="Maps\Island of Kesmai.vk0" />
+    <None Include="Maps\vssver2.scc" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <EmbeddedResource Include="WindowForms\CharacterEditor.resx">
+      <DependentUpon>CharacterEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DragonsSpineMain.resx">
+      <DependentUpon>DragonsSpineMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WindowForms\MapEditor.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MapEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WindowForms\ServerWindow.resx">
+      <DependentUpon>ServerWindow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="Dlls\DevAge.Core.dll" />
+    <Content Include="Dlls\DevAge.Data.dll" />
+    <Content Include="Dlls\DevAge.Drawing.dll" />
+    <Content Include="Dlls\DevAge.SourceGrid3.dll" />
+    <Content Include="Dlls\DevAge.SourceGrid3.Extensions.dll" />
+    <Content Include="Dlls\DevAge.Utilities.dll" />
+    <Content Include="Dlls\DevAge.Windows.Forms.dll" />
+    <Content Include="Dlls\DevAge.WindowsPlatform.dll" />
+    <Content Include="Dlls\GameLib.dll" />
+    <Content Include="Dlls\Net.dll" />
+    <Content Include="DragonsSpine.ico" />
+    <Content Include="Icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="GameSystems\Effects\" />
+    <Folder Include="GameTalents\Entity Talents\" />
+    <Folder Include="GameTalents\Psionic Talents\" />
+    <Folder Include="GameTalents\Ranger Talents\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

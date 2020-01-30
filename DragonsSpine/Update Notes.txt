@@ -1,0 +1,3 @@
+﻿10/17/2015
+Fixed bug with flameshield where it killed the shielded target vice the damager.
+Added Utils.ConvertListToString(Array).

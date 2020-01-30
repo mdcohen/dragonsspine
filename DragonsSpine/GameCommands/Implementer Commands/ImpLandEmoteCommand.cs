@@ -1,0 +1,37 @@
+﻿#region 
+/*
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+*/
+#endregion
+using System;
+
+namespace DragonsSpine.Commands
+{
+    [CommandAttribute("implandemote", "All proceeding text is sent to every player in your current land.", (int)Globals.eImpLevel.AGM, new string[] { },
+        0, new string[] { "implandemote <text>" }, Globals.ePlayerState.CONFERENCE, Globals.ePlayerState.PLAYING)]
+    public class ImpLandEmoteCommand : ICommandHandler
+    {
+        public bool OnCommand(Character chr, string args)
+        {
+            foreach (Character chra in Character.PCInGameWorld)
+                if (chra.LandID == chr.LandID)
+                    chra.WriteToDisplay(args);
+
+            if (chr.PCState == Globals.ePlayerState.CONFERENCE)
+                chr.WriteToDisplay(args);
+
+            return true;
+        }
+    }
+}

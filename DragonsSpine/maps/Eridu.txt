@@ -1,0 +1,40 @@
+<z>0</z> <x>13</x> <y>20</y> <n>City of Eridu</n>
+//<autonomy>
+//	<minimumSuggestedLevel>1</minimumSuggestedLevel>
+//	<maximumSuggestedLevel>25</maximumSuggestedLevel>
+//	<entities>thief</entities>
+//</autonomy>
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DD. . . . . . . . . . . . . . . . . ~~. . . DD
+DD. . . . . . . . . . . . . . [][][]. ~~. . DD
+DD. . . . . ******~~~~~~. . . SD[_SD~~. . . DD
+DD. . . . . **. **~~. ~~. . . [][][]. ~~. . DD
+DD. . . . DDDDDDDDDDDDDD. . . . . . ~~. . . DD
+DD. . . . DD/\DD~.DD. DD. **. SD[][][]SD. . DD
+DD. . DDDDDD. DD. DD. DDSDDD. []. . . []. . DD/\/\/\/\/\/\/\
+DD. . DD**. . . . . . . . DD. []. []. []. . DD/\*9*9*9*9*9/\
+DD. . DDDDDD. . . . . DDDDDD. []. . . []. . DD/\*9*9*9*9*9/\
+DD. . DD@@. . . MM. . . LKDD. SD[][][]SD. ::DDSM*9*9. *9*9/\
+DD. . DDDDDD. . o . . o MMDD. . . . . . . . DD/\*9*9*9*9*9/\
+DD. . DD~~. . . MM. . . LKDD. [][][][][][]. DD/\*9*9*9*9*9/\
+DD. . DDDDDD. . . . . DDDDDD. SD. . . . []. DD/\/\/\/\/\/\/\
+DD. . DD~.. . . . . . . . DD. []. []. . []. DD
+DD. . DDDDDD. DD. DD. DDDDDD. []. [][]. []. DD
+DD. . . . DD{}DD.\DD??DD. . . []. . . . SD. DD
+DD. . . . DDDDDDDDDDDDDD. . . [][][][][][]. DD
+DD. . . . . . . . . . . . . . . . . . . . . DD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+
+
+
+
+
+
+
+
+
+
+
+
+
+

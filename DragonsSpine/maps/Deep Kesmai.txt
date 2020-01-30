@@ -1,0 +1,316 @@
+<z>-100</z> <x>125</x> <y>-2</y> <n>Deep Kesmai -5</n> coexistent=true alwaysdark=true
+<autonomy>
+	<minimumSuggestedLevel>14</minimumSuggestedLevel>
+	<maximumSuggestedLevel>16</maximumSuggestedLevel>
+	<entities>archer,fighter,martial_artist,thief,gnome(warrior|rogue)</entities>
+</autonomy>
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DD. . . . . . . . . | . . dn. . . . . . . . | . . . | . . . . . DD
+DDDDDDDDDD[][][][][][]. . . [][][]. [][][][][]. . . [][][][][]. DD
+DD. . . SD. | . . . | . . . | . []. . . . . []. . . []. . . | . DD
+DD. . . DD[][]. []. []--[][][][][]. [][][][][]. . . []. DDDDDDSDDD
+DD. . . DD. []. . . []. . . . . []. . . . . [][_. . []. DD. . . DD
+DD. . . DD. []. []. [][][]. []. [][][][][]. [][_[]--[]. DD. . . DD
+DD. . . SD. []. . . | . []. []. . . [][][]. []. []. []. DD. . . DD
+DDDDDDDDDD. []. []. []. []--[][][][][][][]--[]. []. []. DDDDDDDDDD
+DD. . . . . []. . . []. []. . . | . []. . . []. []. []. . . . . DD
+DDSD[][][]. []. []. []. []. . . [][][]. . . []. []. [][][][][]. DD
+DD. . . []. []. . . SD. []. . . []. . . . . []. . . []. . . []. DD
+DD. . . [][][]. []. [][][][][]SD[]--[][][]. [][][][][]. []. []. DD
+DD. . . | . []. . . | . . . . . []. . . []. . . | . . . []. []. DD
+DD--[][][]. []--[][][][][][][]--[]. . . [][][][][]. . . []. []. DD
+DD. . . []. []. . . []. . . . . []. . . | . . . []. . . []. []. DD
+DD. [][][]--[]. . . []. . . . . []. [][][][][][][]. . . []. []--DD
+DD. []. . . | . . . []. . . . . []. []. . . []. []. . . []. . . DD
+DD. []. . . [][][]--[][][][][]SD[]--[]. []. []. []--[][][]. [][]DD
+DD. []. . . []. []. | . . . . . []. []. []. []. []. dn. | . [][]DD
+DD. []. . . []. [][][]. . . . . []. []. []. []. []. . . []. [][]DD
+DD. | . . . | . . . . . . . . . []. . . []. []. | . . . []. [][]DD
+DD. [][][][][][][]. [][][][][][][][][][][][][][][][][]--[]SD[][]DD
+DD. . . | . . . []. []. []/\/\/\/\/\/\/\/\/\/\/\[]. . . []. . DD
+DD. [][][]. . . [][][]. []/\                  /\[]. . . []. . DD
+DD. []. . . . . | . . . []/\                  /\[][][]--[]. . DD
+DD[][]. [][][]--[][][][][]/\                  /\[]. . . []. . DDDDDD
+DD. . . []. | . | . . . []/\                  /\[]. . . []. . SDtpDD
+DD. [][][]. []--[][][][][]/\                  /\[]. . . []--[][]DDDD
+DD. []. . . []. []. . . []/\                  /\[]. . . []. . . DD
+DDDDDDDDDD. []. []. . . []/\                  /\[]. . . []. . . DD
+DD. . . DD. []. SD. . . []/\                  /\DDDDSDDDDD. . . DD
+DD. []. DD--[][][][][]--[]/\    /\/\/\/\/\/\/\/\[].\. . DDDDSDDDDD
+DD. . . DD. . . []. []. []/\    /\_]~~[_[_[][_~~[_.\.\.\[]. . . DD
+DD. []. DD. . . []. []. []/\    /\/\/\_][_~~~~[_[_~~~~.\[].\.\. DD
+DD. . . SD. . . []. []. []/\        /\/\.\~~~~~~[__]~~.\[][_[_[]/\/\/\
+DD. []. DD[][]--[]. []. []/\        /\/\_][_~~~~~~~~~~~~~~~~~~~~WWWWWW
+DD. . . DDdn. . []. . . []/\          /\/\/\/\/\/\.\~~~~_][_[__]/\/\/\
+DDDDDDDDDDDDDDDDDDDDDDDDDD/\                    /\/\/\/\/\/\/\/\/\
+<z>-130</z> <x>126</x> <y>-2</y> <n>Deep Kesmai -6</n> coexistent=true alwaysdark=true
+<autonomy>
+	<minimumSuggestedLevel>15</minimumSuggestedLevel>
+	<maximumSuggestedLevel>17</maximumSuggestedLevel>
+	<entities>fighter,martial_artist,thief,gnome(warrior|rogue)</entities>
+</autonomy>
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDdn. . []. . . | . . []up. . . . . []. . . | . DD
+DD. . . []. [][][]. . [][][][]. [][][][][]. []. DDDDDD
+/\/\[]. . . []. []. []. . . | . . . . . . . []. []. DD
+  /\[][][]--[]. []--[][][][][][][][][][][][][][][]. DD
+  /\[]. []. []. []. . . | . . . . . . . . . . . . . DD
+  /\[]. []. []. []. . . []. [][][][][][][][][]--[]. DDDDDD
+  /\[]. . . . . []. . . []. . . . . []. . . . . []. . . DD
+  /\[][][][][][][]--[][][][][][][]--[]. . . . . []. []. DDDDDDDDDDDDDD
+  /\[]. []. . . . . []. ~~. | . . . []. . . . . []. []. . . []. . . DD
+  /\[]. []. . . . . []. . . [][][][][]SD[][][]--[]--[][][]. []. . . DD
+  /\[]. []. . . . . []~~. . []. | . . . . . []. []. . . []. []. . . DD
+  /\[]. [][][][][]--[]. . . []. []. . . . . [][][]. . . []. []. . . DD
+  /\[]. []. . . . . []~~~~. | . []. . . . . | . . . . . []. | . . dnDD
+  /\[]. [][][][][][][][][][][]. []. . . [][][]. . . [][][][][]--[][]DD
+  /\[]. SD. . . | . . . | . . . []. . . | . []. . . []. | . . . SD. DD
+  /\[][][]. . . []. . . [][][][][]. [][][]. []. . . [][][]. . . []. DD
+  /\[]. []. . . []. ~~~~[]. . . | . []. . . []. . . . . []. . . []. DD
+  /\[]. []. . . [][][][][]. . . [][][]. [][][][][]. . . []. . . []. DD
+  /\[]. []. . . []. . . . . . . []~~[]. []. . . []up. . []. . . []. DD
+  /\[]. [][][][][]. . . . . ~~. []. []. []. . . []. [][][][]DDHDDD. DD
+  /\[]. . . . . | . . . ~~~~~~~~. dn[]. | . . . []. . . [][]DD. DD. DD
+  /\[][][][][][][][][]--[][][][][][][][][][][][][][][]. [][]DDDDDD--DD
+  /\/\/\/\/\/\/\/\/\[]. . . []/\/\/\/\/\/\/\/\/\/\/\[]. []. . . . . DD
+  /\[][][][][][][][][]. . . []/\.t.t.tDD.t.t/\/\/\/\[]. | . . . . . DD
+/\/\[]. . . . []. . []. . . []/\[][].tDD.tot[][][]/\[]. []. . . . . DD
+/\[][]. . . . []. . [][][]--[]/\DDDDCCDD.t.t|t.t[]/\[]. [][][][][]. DD
+/\[]tp. . . . | . . []. . . []/\.t|t.t.t.t.t[]EK[]/\[]. | . . . []. DD
+/\[][]--[][][][]--[][]. . . []/\.tDDDD-t[][][][][]/\[]. []. . . []. DD
+/\/\[]. []. . []. . []. . . []/\.t/\DD.t[].t[].t.t/\[]. []. dn. []. DD
+  /\[]. []. . []. . []. []--[]/\CC/\DD.t|t.tSD/\SM/\DD--[][][][][]. DD
+  /\[]. []. . | . . []. []. []/\.t.tDD.t[][][]/\. SCDD. . . . . []. DD
+  /\[]--[][][][][]SD[]. []. []/\.t.tDD.t.t.t.t/\. **[]. . . . . []. DD
+  /\[]. []. . . []. . . []. []/\DDDDDD/\/\/\.t/\. . DD. . . . . | . DD
+  /\[]. []. . . []. . ~~[]. [][][].tSDSM.t.t.t/\. /\DD. . . . ~~[]. DD
+  /\[]--[]. . ~~[]~~~~~~[]. SD.t.t.t[][][]/\/\/\.\/\[]. . . ~~~~[]. DD
+  /\[]. . . . ~~[][][][][]. [][][].t[]/\/\/\/\_]%%/\[]. . . [][][]. DD
+  /\[]~~up. . . . . . . []/\[][][]/\/\/\/\/\/\.\[_/\[]. . . | . | . DD
+  /\DDDDDDDDDDDDDDDDDDDDDDDDDD/\/\/\/\/\/\/\/\/\/\/\DDDDDDDDDDDDDDDDDD
+<z>-160</z> <x>124</x> <y>-2</y> <n>Deep Kesmai -7</n> coexistent=true alwaysdark=true
+<autonomy>
+	<minimumSuggestedLevel>16</minimumSuggestedLevel>
+	<maximumSuggestedLevel>18</maximumSuggestedLevel>
+	<entities>arbalist(scout),fighter,martial_artist,thief,thaumaturge,wizard,troglodyte</entities>
+</autonomy>
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DD. up. | . []. . . . . []. . . . . . . . . . . . . . . []. . . . . DD
+DD. . . []. []. [][][]. []. []. [][][][][][][][][]. [][][]--[][][][]DD
+DD. . . []. []. . . []. []. []. []. []. . . . . []. []. . . . . . . DD
+DDSD[][][]. [][][]. [][][]. []. []. []. [][][]. []. []. . . . . . . DD
+DD. []. . . . . . . []. . . []. . . []. . . []. []. . . . . . . . . DD
+DDDD[]--[][][][][]. []. [][][][][][][][][][][]SD[]. [][][]--[]. []. DD
+DD. . . []. . . []. []. []. . . . . . . . . []. . . []. []. []. []. DD
+DD. . . [][][]. []. []. []. [][][]. [][][]--[]. . . []. []. []--[][]DD
+DD. . . SD. []. . . []. []. . . []. []. . . []. . . []. . . []. . . DD
+DD. . . [][][][][]. [][][][][][][]. []. . . [][][]--[][][][][]. . . DD
+DD. . . []. . . []. . . . . . . . . []. . . | . []. . . | . . . . . DD
+DD. . . []. []. []. [][][][][]. [][][][][][][]--[]. . . []. [][][][]DD
+DD. . . []. []. []. []. . . | . []. . . | . . . . . . . []. []. up. DD
+DDDD[][][]. []. [][][]. . . [][][]. [][][]. . . . . [][][][][]. . . DD
+DD. . . . . []. . dn. . . . []. . . []. | . . . . . | . . . dn. . . DD
+DD. [][][][][][][][][][][][][]. [][][]. [][][]--[][][][][][][]. . . DD
+DD. []. . . . . . . . . | . . . []. . . []. | . . . . . . . | . . . DD
+DD--[][][][][][][]. . . [][][][][]. []. []. [][][][][]. [][][][][][]DD
+DD. . . []. . . | . . . []. . . . . []. []. []. . . . . []. . . . . DD
+DD. . . []. . . [][][]--[]. [][][][][][][]. []. [][][][][]. [][][]. DD
+DD. . . []. . . []. . . []. . . . . . up. . []. . . . . . . . . []. DD
+DDDD[]. [][][][][]--[]. []--[][][][][][][][][][][][][]. [][][]. []. DD
+DD. []. . . []. . . []. []. []/\/\/\/\/\/\/\/\/\/\/\[]. . . []. . . DD
+DD. [][][]. []. . . []. []. []/\    /\.t.t|t.t.t.t/\[]. []. [][][][]DD
+DD. . . . . []. . . []. []. []/\    /\.t/\/\.t.t.t/\[]. []. []. . . DD
+DDDD[][][][][]. . . []. []. []/\  /\/\SM/\/\.t.t.t/\[]. []. [][][]. DD
+DD. . . . . | . . . []. []. []/\/\/\[__]/\/\/\/\/\/\[]. []. . . []. DD
+DD. [][][]--[][][][][]. []. []/\/\.\.\%%/\.\.\/\  /\[]. [][][]. []. DD
+DDpb[]. . . []. . . . . []. []/\/\[_.\.\.\/\/\/\  /\[]. []up[]. []. DD
+DD. []. . . []. [][][]--[]--[]/\/\/\.\.\[_/\      /\[]. []. []. []. DD
+DD. []. . . []. []. []. . . []/\.t/\.\_].\/\/\    /\[]. []. []. []. DD
+DDDD[]. . . []. []. []. . . []/\/\SM/\.\/\.\/\/\  /\[]. []. []. []--DD
+DD. . . . . []. . . []. . . []/\.t/\/\.\/\.\/\/\  /\[]. []. []. . . DD
+DD. [][][]--[][][]--[][][]--[]/\.t/\.\.\.\/\.\/\  /\[]. []. []. . . DD
+DD. []. . . . . . . . . []. []/\.t/\~~~~.\/\/\/\  /\[]. []. []. . . DD
+DD. [][][][]. . . [][][][]. []/\.t/\/\~~~~.\/\/\/\/\[]. []. []. . . DD
+DD. . . . . . . . . . . . . []/\.t.t/\/\/\/\. . . . SD. . . []. dn. DD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDD/\/\/\/\    /\/\/\/\/\DDDDDDDDDDDDDDDDDD
+<z>-190</z> <x>127</x> <y>-2</y> <n>Deep Kesmai -8</n> coexistent=true alwaysdark=true
+<autonomy>
+	<minimumSuggestedLevel>17</minimumSuggestedLevel>
+	<maximumSuggestedLevel>19</maximumSuggestedLevel>
+	<entities>arbalist(scout),berserker,fighter,martial_artist,thief,thaumaturge,wizard</entities>
+</autonomy>
+                                                /\DDDDDDDDDDDDDDDD
+                                                /\[]. dn[]. . . DD
+                                                /\[]. . []. []. DD
+                                                /\[]. . []. []. DD
+                                                /\[]. . [][][]SDDD
+                  /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\[]. . []. . . DD
+                  /\[][][][][][][][][][][][][][][][]. . []. . . DD
+                  /\[]. . . . . []. . . . . . . . . . . []. . . DD
+                  /\[]. . . . . []. . . . . . . . . . . [][][]--DD
+                  /\[]. . . . . | . . . . . . . . . . %%[]. . . DD
+                  /\[]. [][][][][][][][][][][][][][][][][]. []. DD
+                  /\[]. []. . . . . . . . . []. . . []. . . []. DD
+                  /\[]. [][][]--[][][][][][][]. . . [][][]. []. DD
+/\/\/\/\/\/\/\/\/\/\[]. | . . . . . . . . . []. . . []. . . []. DD
+DD[][][][][][][][][][]. [][][][][][][][][]--[][][]--[]. [][][]. DD
+DD. . . . . up. . . . . | . . | . . . . []. . . . . []up[]. . . DD
+DD. . . [][][][][][][]--[]. . []. . . . []. . . . . []. [][][]. DD
+DD. . . []. . . []. . . []. . []. . . . []. . . . . []. . . []. DD
+DD--[]--[]. . . []. [][][][][][][][][][][][][][][][][][][]. []. DD
+DD. []. | . . . []. []. . . []. . . |.  []. . . []. []. . . []. DD
+DD. [][][][][]--[]. []. . . []. . . [][][]--[]. []. []. [][][]--DD
+DD. . . . . []. []. []. . . []. . . []. . . []. []. []. []. . . DD
+DD[][][][]. []. []--[]--[]--[][][]SD[]. . . []. []. []. []. . . DD
+DD. . . . . []. []. . . []. . . . . []. . . []. []. []. []. . . DD
+DD. . . . . []. []. . . []. . . . . [][][][][]. []. []. []. . . DD
+DD. . . . . []. []. . . []. . . . . . . . . . . . . []. | . . . DD
+DD[][][][][][]--[]. . . [][][][][]. [][][][][][][][][][][]--[]. DD
+DD. . . . . . . []. . . | . . . []. . . . . . . . . []. . . []. DD
+DD. . . . . . . []. . . [][][]--[][][][][][][][][]. [][][][][][]DD
+DD[][][]*9[][][][][]. . []. []. . . | . . . . . []. []. . . . . DD
+DD[][][]SD[][][][][]. . []. []. . . [][][][][][][]. []. . . . . DD
+DD[]. . *9. . [][][]. . . . [][][][][]. . . | . . . []. . . . . DD
+DD. *9. . . *9. [][]. . []. . . . . []. . . [][][]--[][][][][]--DD
+DD. . . . . . . [][]. . []. . . . . []. . . []. . . . []. . . . DD
+DD*9. . MP. . *9[][]. . [][][][][][][]. . . []. . . . []--[][][]DD
+DD. . . . . . . [][]. . []. . . []. | . . . []. . . . []. . . . DD
+DD. *9. . . *9. [][][]--[]. [][][]. [][][]--[]. . . . []. . . . DD
+DD[]. . *9. . [][][]. . . . | . . . []. . . []. . . . | . up. . DD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+<z>-220</z> <x>147</x> <y>-2</y> <n>Deep Kesmai -9, Gnoll HQ/n> coexistent=true alignment=evil alwaysdark=true sandybeaches=true
+<autonomy>
+	<minimumSuggestedLevel>17</minimumSuggestedLevel>
+	<maximumSuggestedLevel>19</maximumSuggestedLevel>
+	<entities>gnoll,dire_wolf</entities>
+	<spawnIntensityMod>3</spawnIntensityMod>
+</autonomy>
+/\/\/\/\/\/\/\/\
+/\pb. /\/\/\up/\                /\/\/\/\/\/\
+/\. . . /\~~~~/\                /\.\.\. . /\  
+/\. /\/\/\~~. /\              /\/\. .\. /\/\
+/\. . /\~~~~. /\              /\[_~~. .\/\
+/\/\~~/\~~~~/\/\              /\~~~~/\/\/\
+/\~~~~~~~~/\/\                /\/\SM/\
+/\~~. . /\/\/\/\/\/\          /\. /\/\/\/\/\/\/\/\
+/\/\. . SM. . . . /\/\/\/\  /\/\~~~~~~~~~~~~~~~~WW
+/\. . . /\/\/\/\. /\/\. /\/\/\~~/\/\/\/\/\/\/\/\/\
+/\/\. /\. /\. /\. /\~~/\. ~~~~/\/\
+  /\. . /\. /\/\/\~~/\/\/\/\/\/\
+  /\/\. . . . /\/\/\/\
+    /\/\/\/\/\/\
+<z>-210</z> <x>127</x> <y>-2</y> <n>Broodmother's Lair</n> alignment=chaoticevil alwaysdark=true sandybeaches=true norecall=true
+<autonomy>
+	<minimumSuggestedLevel>19</minimumSuggestedLevel>
+	<maximumSuggestedLevel>21</maximumSuggestedLevel>
+	<entities>[young]green_dragon,[adolescent]green_dragon,babau(assassin|scout)</entities>
+	<spawnIntensityMod>3</spawnIntensityMod>
+	<chaosportal>false</chaosportal>
+	<uniqueEntity>
+		<entity>broodmother</entity>
+		<spawnTimer>3000</spawnTimer>
+		<spawnMessage>A strong odor of sulfur assails your nostrils.</spawnMessage>
+		<x>134</x><y>0</y>
+		<lairCells>128|-1 129|-1 129|1 130|-1 130|1 131|-1 131|0 131|1 132|-1 132|0 132|1 133|-1 134|-1 135|-1 133|0 134|0 135|0 133|1 134|1 135|1</lairCells>
+		<description>massive green dragon|with claws the length of your entire body. There is a strong odor of sulfur pervading the air around you</description>
+	</uniqueEntity>
+</autonomy>
+/\/\/\/\/\/\/\/\/\/\
+/\. . . . . . . . /\/\/\/\/\/\/\DDDD/\/\/\/\/\/\/\
+WW~~~~~~. . . . . /\. . /\/\[]~~[_~~/\[_. ()%%/\/\
+WW~~~~~~~~. . . . . . . ~~~~~~. ~~~~SD. . %%%%%%/\
+WW~~~~~~~~/\/\/\/\. . ~~~~~~~~[_. . SD. . %%/\/\/\
+WW~~~~~~~~/\~~~~~~~~~~~~/\/\/\~~~~~~[][]~~%%%%/\
+WW~~~~~~~~~~~~/\/\/\/\/\/\/\[][][]~~~~WW~~~~/\/\/\
+WW~~~~~~~~/\~~/\          /\/\/\DDDDDDDDDDDDDDDDDD
+WW~~~~~~~~~~/\/\
+WW~~~~~~~~/\/\
+WW~~~~~~/\/\
+/\/\~~*9*9/\/\
+  /\~~*9%%%%/\
+  /\*9*9%%%%/\
+  /\*9*9%%%%/\
+  /\/\/\/\/\/\
+<z>-240</z> <x>129</x> <y>-10</y> <n>The Place of Nightmares</n> alignment=chaoticevil alwaysdark=true norecall=true
+<autonomy>
+	<minimumSuggestedLevel>21</minimumSuggestedLevel>
+	<maximumSuggestedLevel>23</maximumSuggestedLevel>
+	<entities>babau(assassin),bar__lgura,chasme(assassin|warrior|seer),demon(trooper|wizard|fiendish cleric),dretch,rutterkin</entities>
+	<spawnIntensityMod>3</spawnIntensityMod>
+	<chaosportal>false</chaosportal>
+	<uniqueEntity>
+		<entity>nightmare</entity>
+		<spawnTimer>3000</spawnTimer>
+		<spawnMessage>Your insides burn intensely and you double over in pain. While your eyes are closed you see images of tortured souls writhing for what feels like an eternity.</spawnMessage>
+		<x>131</x><y>1</y>
+		<description>midnight black|floating above the flames that comprise its legs, tail and mane</description>
+	</uniqueEntity>
+</autonomy>
+              DDDDDDDDDDDDDDDDDDDDDDDD
+              DD. . . . . . . . . . DD
+            DDDD. DD. DD. DDDD. DDDDDD
+            DD. . DD. DD. . . . . DD
+            DDDDDDDDDDDD. DDDDDD. DD
+            DD. . . . . . . . DD. DD
+            DDDDDDDD. DDDDDD. DD. DD
+              DD. DD  DD. . . . . DD
+            /\DD. DD. DDDDDDDDDD. DD
+/\/\/\/\/\  /\DD. DD. DD. . . DD. DD
+/\*9*9*9/\/\/\DD. DD. DD. DD. DD. DD
+/\*9. . *9. /\DD. DD. . . DD. DD. DD
+/\*9*9*9/\/\. DD. DDDDDDDDDD. DDSDDD
+/\/\/\/\/\[]*9SD. DD. . . DD. DD. DD
+      /\[][]*9DD. . . DD. . . DD. DD
+    /\/\[]*9. DD. DDDDDDDDDDDDDD. DD
+  /\/\[][]. DDDD. DD    DDDDDDDD. DD  
+  /\[][]*9[]DDDDDDDD    DD. . . . DD  
+/\/\[]*9[][]/\  DDDDDDDDDD. DDDDDDDDDD
+/\[][][]. []/\  DD. . . . . DD~~~~~~DD
+/\[]*9*9*9[]/\  DD. . DD. ~~SD~~~~~~DD
+/\_]*9*9*9[]/\  DD. . DD~~. DD~~~~~~DD
+/\[_*9MP*9[]/\  DDSDDDDD. DDDDDDDDDDDD
+/\[][_mm_][]/\  DDdnDD. . DD. . . . DD
+/\_][][_[][]/\  DDDDDD. %%%%%%. DD. DD
+/\/\/\*9/\/\/\  DD. . . %%/\%%. DD. DD
+    /\HD/\      DD. . . %%/\%%. . . DD
+    /\. /\/\/\/\DDHDDDDD%%%%%%. . . DD
+    /\. . . . . VD. DD. . SD. . . . DD
+    /\/\/\/\/\/\DD. DD. . DDDDDDDDDDDD
+                DD. DD. . SD. . . . DD
+                DD. DDSDDDDD. . . . DD
+                DD. VD. DDVD. . . . DD
+                /\/\/\/\/\/\/\/\/\/\/\
+<z>-260</z> <x>137</x> <y>5</y> <n>Dominion of Succubi</n> alignment=chaoticevil alwaysdark=true norecall=true
+<autonomy>
+	<minimumSuggestedLevel>23</minimumSuggestedLevel>
+	<maximumSuggestedLevel>25</maximumSuggestedLevel>
+	<entities>alu(soldier|cultist),cambion(diabolist|soldier|warlock),succubus</entities>
+	<chaosportal>false</chaosportal>
+	<spawnIntensityMod>3</spawnIntensityMod>
+	<uniqueEntity>
+		<entity>succubus_prima</entity>
+		<spawnTimer>3000</spawnTimer>
+		<spawnMessage>A song that sounds both beautiful yet at the same time horrific makes its way to your ears.</spawnMessage>
+		<x>142</x><y>17</y>
+		<description>lovely and gruesome|with large black and red wings, two yellow tinted horns, a slender feminine figure and lips that urge you to kiss them</description>
+	</uniqueEntity>
+</autonomy>
+        /\/\/\
+      /\/\MM/\/\
+      DD*9MP*9DD
+DDDDDDDD*9. *9DDDDDDDD
+DD. DDDD. . . DDDD. DD
+DD. DDDD*9. *9DDDD. DD
+DD. DDDDDDtpDDDDDD. DD
+DD. DDDDDDDDDDDDDD. DD
+DDupDDDDDDtpDDDDDD. DD
+DD. DDDD. . . DDDD. DD
+DD. . . . /\. . . . DD
+DD. . . . /\. . . . DD
+DD. DDDD. . . DDDD. DD
+DD. DDDDDD. DDDDDD. DD
+DD. DDDDDD. DDDDDD. DD
+DD. DDDD. . . DDDD. DD
+DD. . . . . . . . . DD
+DD. . DD. . . DD. . DD
+DDDDDDDDDDDDDDDDDDDDDD
